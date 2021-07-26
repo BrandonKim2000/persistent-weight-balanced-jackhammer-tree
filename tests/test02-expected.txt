@@ -1,0 +1,542 @@
+find(JFK) at time = 0: not found
+insert(ATL) at time = 1 : successful {The William B Hartsfield Atlanta International, Atlanta, USA, (33.0,-84.0)}
+Preorder list at time = 2:
+  [ATL Atlanta] wt: 2.0
+Tree structure:
+  [ATL Atlanta] wt: 2.0
+Full-Preorder list at time = 2:
+  [ATL Atlanta] wt: 2.0
+Tree structure:
+  [ATL Atlanta] wt: 2.0
+insert(BWI) at time = 3 : successful {Baltimore Washington International, Baltimore, USA, (39.0,-76.0)}
+Preorder list at time = 4:
+  (BWI)
+  [ATL Atlanta] wt: 2.0
+  [BWI Baltimore] wt: 1.0
+Tree structure:
+  | [ATL Atlanta] wt: 2.0
+  (BWI)
+  | [BWI Baltimore] wt: 1.0
+Full-Preorder list at time = 4:
+  <3>
+  [ATL Atlanta] wt: 2.0
+  (BWI)
+  [ATL Atlanta] wt: 2.0
+  [BWI Baltimore] wt: 1.0
+Tree structure:
+  | [ATL Atlanta] wt: 2.0
+  <3>
+  | | [ATL Atlanta] wt: 2.0
+  | (BWI)
+  | | [BWI Baltimore] wt: 1.0
+insert(DCA) at time = 5 : successful {Ronald Reagan Washington National, Washington, USA, (38.0,-77.0)}
+Preorder list at time = 6:
+  (BWI)
+  [ATL Atlanta] wt: 2.0
+  (DCA)
+  [BWI Baltimore] wt: 1.0
+  [DCA Washington] wt: 2.0
+Tree structure:
+  | [ATL Atlanta] wt: 2.0
+  (BWI)
+  | | [BWI Baltimore] wt: 1.0
+  | (DCA)
+  | | [DCA Washington] wt: 2.0
+Full-Preorder list at time = 6:
+  <3>
+  [ATL Atlanta] wt: 2.0
+  (BWI)
+  [ATL Atlanta] wt: 2.0
+  <5>
+  [BWI Baltimore] wt: 1.0
+  (DCA)
+  [BWI Baltimore] wt: 1.0
+  [DCA Washington] wt: 2.0
+Tree structure:
+  | [ATL Atlanta] wt: 2.0
+  <3>
+  | | [ATL Atlanta] wt: 2.0
+  | (BWI)
+  | | | [BWI Baltimore] wt: 1.0
+  | | <5>
+  | | | | [BWI Baltimore] wt: 1.0
+  | | | (DCA)
+  | | | | [DCA Washington] wt: 2.0
+insert(IAD) at time = 7 : successful {Washington Dulles International, Washington, USA, (38.0,-77.0)}
+Preorder list at time = 8:
+  (BWI)
+  [ATL Atlanta] wt: 2.0
+  (DCA)
+  [BWI Baltimore] wt: 1.0
+  (IAD)
+  [DCA Washington] wt: 2.0
+  [IAD Washington] wt: 1.0
+Tree structure:
+  | [ATL Atlanta] wt: 2.0
+  (BWI)
+  | | [BWI Baltimore] wt: 1.0
+  | (DCA)
+  | | | [DCA Washington] wt: 2.0
+  | | (IAD)
+  | | | [IAD Washington] wt: 1.0
+Full-Preorder list at time = 8:
+  <3>
+  [ATL Atlanta] wt: 2.0
+  (BWI)
+  [ATL Atlanta] wt: 2.0
+  <5>
+  [BWI Baltimore] wt: 1.0
+  (DCA)
+  [BWI Baltimore] wt: 1.0
+  <7>
+  [DCA Washington] wt: 2.0
+  (IAD)
+  [DCA Washington] wt: 2.0
+  [IAD Washington] wt: 1.0
+Tree structure:
+  | [ATL Atlanta] wt: 2.0
+  <3>
+  | | [ATL Atlanta] wt: 2.0
+  | (BWI)
+  | | | [BWI Baltimore] wt: 1.0
+  | | <5>
+  | | | | [BWI Baltimore] wt: 1.0
+  | | | (DCA)
+  | | | | | [DCA Washington] wt: 2.0
+  | | | | <7>
+  | | | | | | [DCA Washington] wt: 2.0
+  | | | | | (IAD)
+  | | | | | | [IAD Washington] wt: 1.0
+insert(JFK) at time = 9 : successful {John F Kennedy International, New York, USA, (40.0,-73.0)}
+Preorder list at time = 10:
+  (BWI)
+  [ATL Atlanta] wt: 2.0
+  (DCA)
+  [BWI Baltimore] wt: 1.0
+  (IAD)
+  [DCA Washington] wt: 2.0
+  (JFK)
+  [IAD Washington] wt: 1.0
+  [JFK New York] wt: 1.0
+Tree structure:
+  | [ATL Atlanta] wt: 2.0
+  (BWI)
+  | | [BWI Baltimore] wt: 1.0
+  | (DCA)
+  | | | [DCA Washington] wt: 2.0
+  | | (IAD)
+  | | | | [IAD Washington] wt: 1.0
+  | | | (JFK)
+  | | | | [JFK New York] wt: 1.0
+Full-Preorder list at time = 10:
+  <3>
+  [ATL Atlanta] wt: 2.0
+  (BWI)
+  [ATL Atlanta] wt: 2.0
+  <5>
+  [BWI Baltimore] wt: 1.0
+  (DCA)
+  [BWI Baltimore] wt: 1.0
+  <7>
+  [DCA Washington] wt: 2.0
+  (IAD)
+  [DCA Washington] wt: 2.0
+  <9>
+  [IAD Washington] wt: 1.0
+  (JFK)
+  [IAD Washington] wt: 1.0
+  [JFK New York] wt: 1.0
+Tree structure:
+  | [ATL Atlanta] wt: 2.0
+  <3>
+  | | [ATL Atlanta] wt: 2.0
+  | (BWI)
+  | | | [BWI Baltimore] wt: 1.0
+  | | <5>
+  | | | | [BWI Baltimore] wt: 1.0
+  | | | (DCA)
+  | | | | | [DCA Washington] wt: 2.0
+  | | | | <7>
+  | | | | | | [DCA Washington] wt: 2.0
+  | | | | | (IAD)
+  | | | | | | | [IAD Washington] wt: 1.0
+  | | | | | | <9>
+  | | | | | | | | [IAD Washington] wt: 1.0
+  | | | | | | | (JFK)
+  | | | | | | | | [JFK New York] wt: 1.0
+insert(LAX) at time = 11 : successful {Los Angeles International, Los Angeles, USA, (33.0,-118.0)}
+Preorder list at time = 12:
+  (IAD)
+  (BWI)
+  [ATL Atlanta] wt: 2.0
+  (DCA)
+  [BWI Baltimore] wt: 1.0
+  [DCA Washington] wt: 2.0
+  (LAX)
+  (JFK)
+  [IAD Washington] wt: 1.0
+  [JFK New York] wt: 1.0
+  [LAX Los Angeles] wt: 2.0
+Tree structure:
+  | | [ATL Atlanta] wt: 2.0
+  | (BWI)
+  | | | [BWI Baltimore] wt: 1.0
+  | | (DCA)
+  | | | [DCA Washington] wt: 2.0
+  (IAD)
+  | | | [IAD Washington] wt: 1.0
+  | | (JFK)
+  | | | [JFK New York] wt: 1.0
+  | (LAX)
+  | | [LAX Los Angeles] wt: 2.0
+Full-Preorder list at time = 12:
+  <11>
+  <3>
+  [ATL Atlanta] wt: 2.0
+  (BWI)
+  [ATL Atlanta] wt: 2.0
+  <5>
+  [BWI Baltimore] wt: 1.0
+  (DCA)
+  [BWI Baltimore] wt: 1.0
+  <7>
+  [DCA Washington] wt: 2.0
+  (IAD)
+  [DCA Washington] wt: 2.0
+  <9>
+  [IAD Washington] wt: 1.0
+  (JFK)
+  [IAD Washington] wt: 1.0
+  <11>
+  [JFK New York] wt: 1.0
+  (LAX)
+  [JFK New York] wt: 1.0
+  [LAX Los Angeles] wt: 2.0
+  (IAD)
+  (BWI)
+  [ATL Atlanta] wt: 2.0
+  (DCA)
+  [BWI Baltimore] wt: 1.0
+  [DCA Washington] wt: 2.0
+  (LAX)
+  (JFK)
+  [IAD Washington] wt: 1.0
+  [JFK New York] wt: 1.0
+  [LAX Los Angeles] wt: 2.0
+Tree structure:
+  | | [ATL Atlanta] wt: 2.0
+  | <3>
+  | | | [ATL Atlanta] wt: 2.0
+  | | (BWI)
+  | | | | [BWI Baltimore] wt: 1.0
+  | | | <5>
+  | | | | | [BWI Baltimore] wt: 1.0
+  | | | | (DCA)
+  | | | | | | [DCA Washington] wt: 2.0
+  | | | | | <7>
+  | | | | | | | [DCA Washington] wt: 2.0
+  | | | | | | (IAD)
+  | | | | | | | | [IAD Washington] wt: 1.0
+  | | | | | | | <9>
+  | | | | | | | | | [IAD Washington] wt: 1.0
+  | | | | | | | | (JFK)
+  | | | | | | | | | | [JFK New York] wt: 1.0
+  | | | | | | | | | <11>
+  | | | | | | | | | | | [JFK New York] wt: 1.0
+  | | | | | | | | | | (LAX)
+  | | | | | | | | | | | [LAX Los Angeles] wt: 2.0
+  <11>
+  | | | [ATL Atlanta] wt: 2.0
+  | | (BWI)
+  | | | | [BWI Baltimore] wt: 1.0
+  | | | (DCA)
+  | | | | [DCA Washington] wt: 2.0
+  | (IAD)
+  | | | | [IAD Washington] wt: 1.0
+  | | | (JFK)
+  | | | | [JFK New York] wt: 1.0
+  | | (LAX)
+  | | | [LAX Los Angeles] wt: 2.0
+insert(SFO) at time = 13 : successful {San Francisco International, San Francisco, USA, (37.0,-122.0)}
+Preorder list at time = 14:
+  (IAD)
+  (BWI)
+  [ATL Atlanta] wt: 2.0
+  (DCA)
+  [BWI Baltimore] wt: 1.0
+  [DCA Washington] wt: 2.0
+  (LAX)
+  (JFK)
+  [IAD Washington] wt: 1.0
+  [JFK New York] wt: 1.0
+  (SFO)
+  [LAX Los Angeles] wt: 2.0
+  [SFO San Francisco] wt: 1.0
+Tree structure:
+  | | [ATL Atlanta] wt: 2.0
+  | (BWI)
+  | | | [BWI Baltimore] wt: 1.0
+  | | (DCA)
+  | | | [DCA Washington] wt: 2.0
+  (IAD)
+  | | | [IAD Washington] wt: 1.0
+  | | (JFK)
+  | | | [JFK New York] wt: 1.0
+  | (LAX)
+  | | | [LAX Los Angeles] wt: 2.0
+  | | (SFO)
+  | | | [SFO San Francisco] wt: 1.0
+Full-Preorder list at time = 14:
+  <11>
+  <3>
+  [ATL Atlanta] wt: 2.0
+  (BWI)
+  [ATL Atlanta] wt: 2.0
+  <5>
+  [BWI Baltimore] wt: 1.0
+  (DCA)
+  [BWI Baltimore] wt: 1.0
+  <7>
+  [DCA Washington] wt: 2.0
+  (IAD)
+  [DCA Washington] wt: 2.0
+  <9>
+  [IAD Washington] wt: 1.0
+  (JFK)
+  [IAD Washington] wt: 1.0
+  <11>
+  [JFK New York] wt: 1.0
+  (LAX)
+  [JFK New York] wt: 1.0
+  [LAX Los Angeles] wt: 2.0
+  (IAD)
+  (BWI)
+  [ATL Atlanta] wt: 2.0
+  (DCA)
+  [BWI Baltimore] wt: 1.0
+  [DCA Washington] wt: 2.0
+  (LAX)
+  (JFK)
+  [IAD Washington] wt: 1.0
+  [JFK New York] wt: 1.0
+  <13>
+  [LAX Los Angeles] wt: 2.0
+  (SFO)
+  [LAX Los Angeles] wt: 2.0
+  [SFO San Francisco] wt: 1.0
+Tree structure:
+  | | [ATL Atlanta] wt: 2.0
+  | <3>
+  | | | [ATL Atlanta] wt: 2.0
+  | | (BWI)
+  | | | | [BWI Baltimore] wt: 1.0
+  | | | <5>
+  | | | | | [BWI Baltimore] wt: 1.0
+  | | | | (DCA)
+  | | | | | | [DCA Washington] wt: 2.0
+  | | | | | <7>
+  | | | | | | | [DCA Washington] wt: 2.0
+  | | | | | | (IAD)
+  | | | | | | | | [IAD Washington] wt: 1.0
+  | | | | | | | <9>
+  | | | | | | | | | [IAD Washington] wt: 1.0
+  | | | | | | | | (JFK)
+  | | | | | | | | | | [JFK New York] wt: 1.0
+  | | | | | | | | | <11>
+  | | | | | | | | | | | [JFK New York] wt: 1.0
+  | | | | | | | | | | (LAX)
+  | | | | | | | | | | | [LAX Los Angeles] wt: 2.0
+  <11>
+  | | | [ATL Atlanta] wt: 2.0
+  | | (BWI)
+  | | | | [BWI Baltimore] wt: 1.0
+  | | | (DCA)
+  | | | | [DCA Washington] wt: 2.0
+  | (IAD)
+  | | | | [IAD Washington] wt: 1.0
+  | | | (JFK)
+  | | | | [JFK New York] wt: 1.0
+  | | (LAX)
+  | | | | [LAX Los Angeles] wt: 2.0
+  | | | <13>
+  | | | | | [LAX Los Angeles] wt: 2.0
+  | | | | (SFO)
+  | | | | | [SFO San Francisco] wt: 1.0
+Preorder list at time = 0:
+Tree structure:
+find(IAD) at time = 0: not found
+find(ATL) at time = 0: not found
+find-up(SFO) at time = 0: not found
+find-down(DCA) at time = 0: not found
+find-up(ZZZ) at time = 0: not found
+find-down(AAA) at time = 0: not found
+get-min at time = 0: not found
+get-max at time = 0: not found
+Preorder list at time = 2:
+  [ATL Atlanta] wt: 2.0
+Tree structure:
+  [ATL Atlanta] wt: 2.0
+find(IAD) at time = 2: not found
+find(ATL) at time = 2: found [Atlanta]
+find-up(SFO) at time = 2: not found
+find-down(DCA) at time = 2: found [Atlanta]
+get-min at time = 2: found [Atlanta]
+get-max at time = 2: found [Atlanta]
+find-up(ZZZ) at time = 2: not found
+find-down(AAA) at time = 2: not found
+Preorder list at time = 4:
+  (BWI)
+  [ATL Atlanta] wt: 2.0
+  [BWI Baltimore] wt: 1.0
+Tree structure:
+  | [ATL Atlanta] wt: 2.0
+  (BWI)
+  | [BWI Baltimore] wt: 1.0
+find(IAD) at time = 4: not found
+find(ATL) at time = 4: found [Atlanta]
+find-up(SFO) at time = 4: not found
+find-down(DCA) at time = 4: found [Baltimore]
+get-min at time = 4: found [Atlanta]
+get-max at time = 4: found [Baltimore]
+find-up(ZZZ) at time = 4: not found
+find-down(AAA) at time = 4: not found
+Preorder list at time = 6:
+  (BWI)
+  [ATL Atlanta] wt: 2.0
+  (DCA)
+  [BWI Baltimore] wt: 1.0
+  [DCA Washington] wt: 2.0
+Tree structure:
+  | [ATL Atlanta] wt: 2.0
+  (BWI)
+  | | [BWI Baltimore] wt: 1.0
+  | (DCA)
+  | | [DCA Washington] wt: 2.0
+find(IAD) at time = 6: not found
+find(ATL) at time = 6: found [Atlanta]
+find-up(SFO) at time = 6: not found
+find-down(DCA) at time = 6: found [Washington]
+get-min at time = 6: found [Atlanta]
+get-max at time = 6: found [Washington]
+find-up(ZZZ) at time = 6: not found
+find-down(AAA) at time = 6: not found
+Preorder list at time = 8:
+  (BWI)
+  [ATL Atlanta] wt: 2.0
+  (DCA)
+  [BWI Baltimore] wt: 1.0
+  (IAD)
+  [DCA Washington] wt: 2.0
+  [IAD Washington] wt: 1.0
+Tree structure:
+  | [ATL Atlanta] wt: 2.0
+  (BWI)
+  | | [BWI Baltimore] wt: 1.0
+  | (DCA)
+  | | | [DCA Washington] wt: 2.0
+  | | (IAD)
+  | | | [IAD Washington] wt: 1.0
+find(IAD) at time = 8: found [Washington]
+find(ATL) at time = 8: found [Atlanta]
+find-up(SFO) at time = 8: not found
+find-down(DCA) at time = 8: found [Washington]
+get-min at time = 8: found [Atlanta]
+get-max at time = 8: found [Washington]
+find-up(ZZZ) at time = 8: not found
+find-down(AAA) at time = 8: not found
+Preorder list at time = 10:
+  (BWI)
+  [ATL Atlanta] wt: 2.0
+  (DCA)
+  [BWI Baltimore] wt: 1.0
+  (IAD)
+  [DCA Washington] wt: 2.0
+  (JFK)
+  [IAD Washington] wt: 1.0
+  [JFK New York] wt: 1.0
+Tree structure:
+  | [ATL Atlanta] wt: 2.0
+  (BWI)
+  | | [BWI Baltimore] wt: 1.0
+  | (DCA)
+  | | | [DCA Washington] wt: 2.0
+  | | (IAD)
+  | | | | [IAD Washington] wt: 1.0
+  | | | (JFK)
+  | | | | [JFK New York] wt: 1.0
+find(IAD) at time = 10: found [Washington]
+find(ATL) at time = 10: found [Atlanta]
+find-up(SFO) at time = 10: not found
+find-down(DCA) at time = 10: found [Washington]
+get-min at time = 10: found [Atlanta]
+get-max at time = 10: found [New York]
+find-up(ZZZ) at time = 10: not found
+find-down(AAA) at time = 10: not found
+Preorder list at time = 12:
+  (IAD)
+  (BWI)
+  [ATL Atlanta] wt: 2.0
+  (DCA)
+  [BWI Baltimore] wt: 1.0
+  [DCA Washington] wt: 2.0
+  (LAX)
+  (JFK)
+  [IAD Washington] wt: 1.0
+  [JFK New York] wt: 1.0
+  [LAX Los Angeles] wt: 2.0
+Tree structure:
+  | | [ATL Atlanta] wt: 2.0
+  | (BWI)
+  | | | [BWI Baltimore] wt: 1.0
+  | | (DCA)
+  | | | [DCA Washington] wt: 2.0
+  (IAD)
+  | | | [IAD Washington] wt: 1.0
+  | | (JFK)
+  | | | [JFK New York] wt: 1.0
+  | (LAX)
+  | | [LAX Los Angeles] wt: 2.0
+find(IAD) at time = 12: found [Washington]
+find(ATL) at time = 12: found [Atlanta]
+find-up(SFO) at time = 12: not found
+find-down(DCA) at time = 12: found [Washington]
+get-min at time = 12: found [Atlanta]
+get-max at time = 12: found [Los Angeles]
+find-up(ZZZ) at time = 12: not found
+find-down(AAA) at time = 12: not found
+Preorder list at time = 14:
+  (IAD)
+  (BWI)
+  [ATL Atlanta] wt: 2.0
+  (DCA)
+  [BWI Baltimore] wt: 1.0
+  [DCA Washington] wt: 2.0
+  (LAX)
+  (JFK)
+  [IAD Washington] wt: 1.0
+  [JFK New York] wt: 1.0
+  (SFO)
+  [LAX Los Angeles] wt: 2.0
+  [SFO San Francisco] wt: 1.0
+Tree structure:
+  | | [ATL Atlanta] wt: 2.0
+  | (BWI)
+  | | | [BWI Baltimore] wt: 1.0
+  | | (DCA)
+  | | | [DCA Washington] wt: 2.0
+  (IAD)
+  | | | [IAD Washington] wt: 1.0
+  | | (JFK)
+  | | | [JFK New York] wt: 1.0
+  | (LAX)
+  | | | [LAX Los Angeles] wt: 2.0
+  | | (SFO)
+  | | | [SFO San Francisco] wt: 1.0
+find(IAD) at time = 14: found [Washington]
+find(ATL) at time = 14: found [Atlanta]
+find-up(SFO) at time = 14: found [San Francisco]
+find-down(DCA) at time = 14: found [Washington]
+get-min at time = 14: found [Atlanta]
+get-max at time = 14: found [San Francisco]
+find-up(ZZZ) at time = 14: not found
+find-down(AAA) at time = 14: not found

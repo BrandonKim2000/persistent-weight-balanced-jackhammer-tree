@@ -1,0 +1,925 @@
+...Inserting BWI wt: 1.0 at time: 1
+...Tree after insertion and before rebalancing BWI
+...[BWI Baltimore] wt: 1.0
+...Tree after rebalancing BWI
+...[BWI Baltimore] wt: 1.0
+insert(BWI) at time = 1 : successful {Baltimore Washington International, Baltimore, USA, (39.0,-76.0)}
+...Inserting ATL wt: 1.0 at time: 2
+...Tree after insertion and before rebalancing ATL
+...| [BWI Baltimore] wt: 1.0
+...<2> wt:2.0
+...| | [ATL Atlanta] wt: 1.0
+...| (BWI) wt: 2.0 maxWt: 1.0
+...| | [BWI Baltimore] wt: 1.0
+...Checking node BWI balance-ratio = 0.5 max-ratio = 0.5 is balanced
+...Tree after rebalancing ATL
+...| [BWI Baltimore] wt: 1.0
+...<2> wt:2.0
+...| | [ATL Atlanta] wt: 1.0
+...| (BWI) wt: 2.0 maxWt: 1.0
+...| | [BWI Baltimore] wt: 1.0
+insert(ATL) at time = 2 : successful {The William B Hartsfield Atlanta International, Atlanta, USA, (33.0,-84.0)}
+...Inserting DCA wt: 1.0 at time: 3
+...Tree after insertion and before rebalancing DCA
+...| [BWI Baltimore] wt: 1.0
+...<2> wt:3.0
+...| | [ATL Atlanta] wt: 1.0
+...| (BWI) wt: 3.0 maxWt: 1.0
+...| | | [BWI Baltimore] wt: 1.0
+...| | <3> wt:2.0
+...| | | | [BWI Baltimore] wt: 1.0
+...| | | (DCA) wt: 2.0 maxWt: 1.0
+...| | | | [DCA Washington] wt: 1.0
+...Checking node BWI balance-ratio = 0.6666667 max-ratio = 0.33333334 is balanced
+...Checking node DCA balance-ratio = 0.5 max-ratio = 0.5 is balanced
+...Tree after rebalancing DCA
+...| [BWI Baltimore] wt: 1.0
+...<2> wt:3.0
+...| | [ATL Atlanta] wt: 1.0
+...| (BWI) wt: 3.0 maxWt: 1.0
+...| | | [BWI Baltimore] wt: 1.0
+...| | <3> wt:2.0
+...| | | | [BWI Baltimore] wt: 1.0
+...| | | (DCA) wt: 2.0 maxWt: 1.0
+...| | | | [DCA Washington] wt: 1.0
+insert(DCA) at time = 3 : successful {Ronald Reagan Washington National, Washington, USA, (38.0,-77.0)}
+...Inserting IAD wt: 1.0 at time: 4
+...Tree after insertion and before rebalancing IAD
+...| [BWI Baltimore] wt: 1.0
+...<2> wt:4.0
+...| | [ATL Atlanta] wt: 1.0
+...| (BWI) wt: 4.0 maxWt: 1.0
+...| | | [BWI Baltimore] wt: 1.0
+...| | <3> wt:3.0
+...| | | | [BWI Baltimore] wt: 1.0
+...| | | (DCA) wt: 3.0 maxWt: 1.0
+...| | | | | [DCA Washington] wt: 1.0
+...| | | | <4> wt:2.0
+...| | | | | | [DCA Washington] wt: 1.0
+...| | | | | (IAD) wt: 2.0 maxWt: 1.0
+...| | | | | | [IAD Washington] wt: 1.0
+...Checking node BWI balance-ratio = 0.75 max-ratio = 0.25 !!! Fails balance conditions !!!
+...Rebuilding subtree at node BWI
+...Rebuilt subtree:
+...| | [ATL Atlanta] wt: 1.0
+...| (BWI) wt: 2.0 maxWt: 1.0
+...| | [BWI Baltimore] wt: 1.0
+...(DCA) wt: 4.0 maxWt: 1.0
+...| | [DCA Washington] wt: 1.0
+...| (IAD) wt: 2.0 maxWt: 1.0
+...| | [IAD Washington] wt: 1.0
+...Applying left rotation to <2> and <4>
+...Tree after rebalancing IAD
+...| | [BWI Baltimore] wt: 1.0
+...| <2> wt:4.0
+...| | | [ATL Atlanta] wt: 1.0
+...| | (BWI) wt: 4.0 maxWt: 1.0
+...| | | | [BWI Baltimore] wt: 1.0
+...| | | <3> wt:3.0
+...| | | | | [BWI Baltimore] wt: 1.0
+...| | | | (DCA) wt: 3.0 maxWt: 1.0
+...| | | | | | [DCA Washington] wt: 1.0
+...| | | | | <4> wt:2.0
+...| | | | | | | [DCA Washington] wt: 1.0
+...| | | | | | (IAD) wt: 2.0 maxWt: 1.0
+...| | | | | | | [IAD Washington] wt: 1.0
+...<4> wt:4.0
+...| | | [ATL Atlanta] wt: 1.0
+...| | (BWI) wt: 2.0 maxWt: 1.0
+...| | | [BWI Baltimore] wt: 1.0
+...| (DCA) wt: 4.0 maxWt: 1.0
+...| | | [DCA Washington] wt: 1.0
+...| | (IAD) wt: 2.0 maxWt: 1.0
+...| | | [IAD Washington] wt: 1.0
+insert(IAD) at time = 4 : successful {Washington Dulles International, Washington, USA, (38.0,-77.0)}
+...Inserting LAX wt: 1.0 at time: 5
+...Tree after insertion and before rebalancing LAX
+...| | [BWI Baltimore] wt: 1.0
+...| <2> wt:4.0
+...| | | [ATL Atlanta] wt: 1.0
+...| | (BWI) wt: 4.0 maxWt: 1.0
+...| | | | [BWI Baltimore] wt: 1.0
+...| | | <3> wt:3.0
+...| | | | | [BWI Baltimore] wt: 1.0
+...| | | | (DCA) wt: 3.0 maxWt: 1.0
+...| | | | | | [DCA Washington] wt: 1.0
+...| | | | | <4> wt:2.0
+...| | | | | | | [DCA Washington] wt: 1.0
+...| | | | | | (IAD) wt: 2.0 maxWt: 1.0
+...| | | | | | | [IAD Washington] wt: 1.0
+...<4> wt:5.0
+...| | | [ATL Atlanta] wt: 1.0
+...| | (BWI) wt: 2.0 maxWt: 1.0
+...| | | [BWI Baltimore] wt: 1.0
+...| (DCA) wt: 5.0 maxWt: 1.0
+...| | | [DCA Washington] wt: 1.0
+...| | (IAD) wt: 3.0 maxWt: 1.0
+...| | | | [IAD Washington] wt: 1.0
+...| | | <5> wt:2.0
+...| | | | | [IAD Washington] wt: 1.0
+...| | | | (LAX) wt: 2.0 maxWt: 1.0
+...| | | | | [LAX Los Angeles] wt: 1.0
+...Checking node DCA balance-ratio = 0.6 max-ratio = 0.2 is balanced
+...Checking node IAD balance-ratio = 0.6666667 max-ratio = 0.33333334 is balanced
+...Checking node LAX balance-ratio = 0.5 max-ratio = 0.5 is balanced
+...Tree after rebalancing LAX
+...| | [BWI Baltimore] wt: 1.0
+...| <2> wt:4.0
+...| | | [ATL Atlanta] wt: 1.0
+...| | (BWI) wt: 4.0 maxWt: 1.0
+...| | | | [BWI Baltimore] wt: 1.0
+...| | | <3> wt:3.0
+...| | | | | [BWI Baltimore] wt: 1.0
+...| | | | (DCA) wt: 3.0 maxWt: 1.0
+...| | | | | | [DCA Washington] wt: 1.0
+...| | | | | <4> wt:2.0
+...| | | | | | | [DCA Washington] wt: 1.0
+...| | | | | | (IAD) wt: 2.0 maxWt: 1.0
+...| | | | | | | [IAD Washington] wt: 1.0
+...<4> wt:5.0
+...| | | [ATL Atlanta] wt: 1.0
+...| | (BWI) wt: 2.0 maxWt: 1.0
+...| | | [BWI Baltimore] wt: 1.0
+...| (DCA) wt: 5.0 maxWt: 1.0
+...| | | [DCA Washington] wt: 1.0
+...| | (IAD) wt: 3.0 maxWt: 1.0
+...| | | | [IAD Washington] wt: 1.0
+...| | | <5> wt:2.0
+...| | | | | [IAD Washington] wt: 1.0
+...| | | | (LAX) wt: 2.0 maxWt: 1.0
+...| | | | | [LAX Los Angeles] wt: 1.0
+insert(LAX) at time = 5 : successful {Los Angeles International, Los Angeles, USA, (33.0,-118.0)}
+Full-Preorder list at time = 5:
+  <4>
+  <2>
+  [BWI Baltimore] wt: 1.0
+  (BWI)
+  [ATL Atlanta] wt: 1.0
+  <3>
+  [BWI Baltimore] wt: 1.0
+  (DCA)
+  [BWI Baltimore] wt: 1.0
+  <4>
+  [DCA Washington] wt: 1.0
+  (IAD)
+  [DCA Washington] wt: 1.0
+  [IAD Washington] wt: 1.0
+  (DCA)
+  (BWI)
+  [ATL Atlanta] wt: 1.0
+  [BWI Baltimore] wt: 1.0
+  (IAD)
+  [DCA Washington] wt: 1.0
+  <5>
+  [IAD Washington] wt: 1.0
+  (LAX)
+  [IAD Washington] wt: 1.0
+  [LAX Los Angeles] wt: 1.0
+Tree structure:
+  | | [BWI Baltimore] wt: 1.0
+  | <2>
+  | | | [ATL Atlanta] wt: 1.0
+  | | (BWI)
+  | | | | [BWI Baltimore] wt: 1.0
+  | | | <3>
+  | | | | | [BWI Baltimore] wt: 1.0
+  | | | | (DCA)
+  | | | | | | [DCA Washington] wt: 1.0
+  | | | | | <4>
+  | | | | | | | [DCA Washington] wt: 1.0
+  | | | | | | (IAD)
+  | | | | | | | [IAD Washington] wt: 1.0
+  <4>
+  | | | [ATL Atlanta] wt: 1.0
+  | | (BWI)
+  | | | [BWI Baltimore] wt: 1.0
+  | (DCA)
+  | | | [DCA Washington] wt: 1.0
+  | | (IAD)
+  | | | | [IAD Washington] wt: 1.0
+  | | | <5>
+  | | | | | [IAD Washington] wt: 1.0
+  | | | | (LAX)
+  | | | | | [LAX Los Angeles] wt: 1.0
+find(SFO) at time = 5: not found
+...Inserting JFK wt: 1.0 at time: 6
+...Tree after insertion and before rebalancing JFK
+...| | [BWI Baltimore] wt: 1.0
+...| <2> wt:4.0
+...| | | [ATL Atlanta] wt: 1.0
+...| | (BWI) wt: 4.0 maxWt: 1.0
+...| | | | [BWI Baltimore] wt: 1.0
+...| | | <3> wt:3.0
+...| | | | | [BWI Baltimore] wt: 1.0
+...| | | | (DCA) wt: 3.0 maxWt: 1.0
+...| | | | | | [DCA Washington] wt: 1.0
+...| | | | | <4> wt:2.0
+...| | | | | | | [DCA Washington] wt: 1.0
+...| | | | | | (IAD) wt: 2.0 maxWt: 1.0
+...| | | | | | | [IAD Washington] wt: 1.0
+...<4> wt:6.0
+...| | | [ATL Atlanta] wt: 1.0
+...| | (BWI) wt: 2.0 maxWt: 1.0
+...| | | [BWI Baltimore] wt: 1.0
+...| (DCA) wt: 6.0 maxWt: 1.0
+...| | | [DCA Washington] wt: 1.0
+...| | (IAD) wt: 4.0 maxWt: 1.0
+...| | | | [IAD Washington] wt: 1.0
+...| | | <5> wt:3.0
+...| | | | | | [IAD Washington] wt: 1.0
+...| | | | | <6> wt:2.0
+...| | | | | | | [IAD Washington] wt: 1.0
+...| | | | | | (JFK) wt: 2.0 maxWt: 1.0
+...| | | | | | | [JFK New York] wt: 1.0
+...| | | | (LAX) wt: 3.0 maxWt: 1.0
+...| | | | | [LAX Los Angeles] wt: 1.0
+...Checking node DCA balance-ratio = 0.6666667 max-ratio = 0.16666667 is balanced
+...Checking node IAD balance-ratio = 0.75 max-ratio = 0.25 !!! Fails balance conditions !!!
+...Rebuilding subtree at node IAD
+...Rebuilt subtree:
+...| | [DCA Washington] wt: 1.0
+...| (IAD) wt: 2.0 maxWt: 1.0
+...| | [IAD Washington] wt: 1.0
+...(JFK) wt: 4.0 maxWt: 1.0
+...| | [JFK New York] wt: 1.0
+...| (LAX) wt: 2.0 maxWt: 1.0
+...| | [LAX Los Angeles] wt: 1.0
+...Tree after rebalancing JFK
+...| | [BWI Baltimore] wt: 1.0
+...| <2> wt:4.0
+...| | | [ATL Atlanta] wt: 1.0
+...| | (BWI) wt: 4.0 maxWt: 1.0
+...| | | | [BWI Baltimore] wt: 1.0
+...| | | <3> wt:3.0
+...| | | | | [BWI Baltimore] wt: 1.0
+...| | | | (DCA) wt: 3.0 maxWt: 1.0
+...| | | | | | [DCA Washington] wt: 1.0
+...| | | | | <4> wt:2.0
+...| | | | | | | [DCA Washington] wt: 1.0
+...| | | | | | (IAD) wt: 2.0 maxWt: 1.0
+...| | | | | | | [IAD Washington] wt: 1.0
+...<4> wt:6.0
+...| | | [ATL Atlanta] wt: 1.0
+...| | (BWI) wt: 2.0 maxWt: 1.0
+...| | | [BWI Baltimore] wt: 1.0
+...| (DCA) wt: 6.0 maxWt: 1.0
+...| | | | [DCA Washington] wt: 1.0
+...| | | (IAD) wt: 4.0 maxWt: 1.0
+...| | | | | [IAD Washington] wt: 1.0
+...| | | | <5> wt:3.0
+...| | | | | | | [IAD Washington] wt: 1.0
+...| | | | | | <6> wt:2.0
+...| | | | | | | | [IAD Washington] wt: 1.0
+...| | | | | | | (JFK) wt: 2.0 maxWt: 1.0
+...| | | | | | | | [JFK New York] wt: 1.0
+...| | | | | (LAX) wt: 3.0 maxWt: 1.0
+...| | | | | | [LAX Los Angeles] wt: 1.0
+...| | <6> wt:4.0
+...| | | | | [DCA Washington] wt: 1.0
+...| | | | (IAD) wt: 2.0 maxWt: 1.0
+...| | | | | [IAD Washington] wt: 1.0
+...| | | (JFK) wt: 4.0 maxWt: 1.0
+...| | | | | [JFK New York] wt: 1.0
+...| | | | (LAX) wt: 2.0 maxWt: 1.0
+...| | | | | [LAX Los Angeles] wt: 1.0
+insert(JFK) at time = 6 : successful {John F Kennedy International, New York, USA, (40.0,-73.0)}
+Full-Preorder list at time = 6:
+  <4>
+  <2>
+  [BWI Baltimore] wt: 1.0
+  (BWI)
+  [ATL Atlanta] wt: 1.0
+  <3>
+  [BWI Baltimore] wt: 1.0
+  (DCA)
+  [BWI Baltimore] wt: 1.0
+  <4>
+  [DCA Washington] wt: 1.0
+  (IAD)
+  [DCA Washington] wt: 1.0
+  [IAD Washington] wt: 1.0
+  (DCA)
+  (BWI)
+  [ATL Atlanta] wt: 1.0
+  [BWI Baltimore] wt: 1.0
+  <6>
+  (IAD)
+  [DCA Washington] wt: 1.0
+  <5>
+  [IAD Washington] wt: 1.0
+  (LAX)
+  <6>
+  [IAD Washington] wt: 1.0
+  (JFK)
+  [IAD Washington] wt: 1.0
+  [JFK New York] wt: 1.0
+  [LAX Los Angeles] wt: 1.0
+  (JFK)
+  (IAD)
+  [DCA Washington] wt: 1.0
+  [IAD Washington] wt: 1.0
+  (LAX)
+  [JFK New York] wt: 1.0
+  [LAX Los Angeles] wt: 1.0
+Tree structure:
+  | | [BWI Baltimore] wt: 1.0
+  | <2>
+  | | | [ATL Atlanta] wt: 1.0
+  | | (BWI)
+  | | | | [BWI Baltimore] wt: 1.0
+  | | | <3>
+  | | | | | [BWI Baltimore] wt: 1.0
+  | | | | (DCA)
+  | | | | | | [DCA Washington] wt: 1.0
+  | | | | | <4>
+  | | | | | | | [DCA Washington] wt: 1.0
+  | | | | | | (IAD)
+  | | | | | | | [IAD Washington] wt: 1.0
+  <4>
+  | | | [ATL Atlanta] wt: 1.0
+  | | (BWI)
+  | | | [BWI Baltimore] wt: 1.0
+  | (DCA)
+  | | | | [DCA Washington] wt: 1.0
+  | | | (IAD)
+  | | | | | [IAD Washington] wt: 1.0
+  | | | | <5>
+  | | | | | | | [IAD Washington] wt: 1.0
+  | | | | | | <6>
+  | | | | | | | | [IAD Washington] wt: 1.0
+  | | | | | | | (JFK)
+  | | | | | | | | [JFK New York] wt: 1.0
+  | | | | | (LAX)
+  | | | | | | [LAX Los Angeles] wt: 1.0
+  | | <6>
+  | | | | | [DCA Washington] wt: 1.0
+  | | | | (IAD)
+  | | | | | [IAD Washington] wt: 1.0
+  | | | (JFK)
+  | | | | | [JFK New York] wt: 1.0
+  | | | | (LAX)
+  | | | | | [LAX Los Angeles] wt: 1.0
+...Inserting ORD wt: 1.0 at time: 7
+...Tree after insertion and before rebalancing ORD
+...| | [BWI Baltimore] wt: 1.0
+...| <2> wt:4.0
+...| | | [ATL Atlanta] wt: 1.0
+...| | (BWI) wt: 4.0 maxWt: 1.0
+...| | | | [BWI Baltimore] wt: 1.0
+...| | | <3> wt:3.0
+...| | | | | [BWI Baltimore] wt: 1.0
+...| | | | (DCA) wt: 3.0 maxWt: 1.0
+...| | | | | | [DCA Washington] wt: 1.0
+...| | | | | <4> wt:2.0
+...| | | | | | | [DCA Washington] wt: 1.0
+...| | | | | | (IAD) wt: 2.0 maxWt: 1.0
+...| | | | | | | [IAD Washington] wt: 1.0
+...<4> wt:7.0
+...| | | [ATL Atlanta] wt: 1.0
+...| | (BWI) wt: 2.0 maxWt: 1.0
+...| | | [BWI Baltimore] wt: 1.0
+...| (DCA) wt: 7.0 maxWt: 1.0
+...| | | | [DCA Washington] wt: 1.0
+...| | | (IAD) wt: 4.0 maxWt: 1.0
+...| | | | | [IAD Washington] wt: 1.0
+...| | | | <5> wt:3.0
+...| | | | | | | [IAD Washington] wt: 1.0
+...| | | | | | <6> wt:2.0
+...| | | | | | | | [IAD Washington] wt: 1.0
+...| | | | | | | (JFK) wt: 2.0 maxWt: 1.0
+...| | | | | | | | [JFK New York] wt: 1.0
+...| | | | | (LAX) wt: 3.0 maxWt: 1.0
+...| | | | | | [LAX Los Angeles] wt: 1.0
+...| | <6> wt:5.0
+...| | | | | [DCA Washington] wt: 1.0
+...| | | | (IAD) wt: 2.0 maxWt: 1.0
+...| | | | | [IAD Washington] wt: 1.0
+...| | | (JFK) wt: 5.0 maxWt: 1.0
+...| | | | | [JFK New York] wt: 1.0
+...| | | | (LAX) wt: 3.0 maxWt: 1.0
+...| | | | | | [LAX Los Angeles] wt: 1.0
+...| | | | | <7> wt:2.0
+...| | | | | | | [LAX Los Angeles] wt: 1.0
+...| | | | | | (ORD) wt: 2.0 maxWt: 1.0
+...| | | | | | | [ORD Chicago] wt: 1.0
+...Checking node DCA balance-ratio = 0.71428573 max-ratio = 0.14285715 !!! Fails balance conditions !!!
+...Rebuilding subtree at node DCA
+...Rebuilt subtree:
+...| | [ATL Atlanta] wt: 1.0
+...| (BWI) wt: 3.0 maxWt: 1.0
+...| | | [BWI Baltimore] wt: 1.0
+...| | (DCA) wt: 2.0 maxWt: 1.0
+...| | | [DCA Washington] wt: 1.0
+...(IAD) wt: 7.0 maxWt: 1.0
+...| | | [IAD Washington] wt: 1.0
+...| | (JFK) wt: 2.0 maxWt: 1.0
+...| | | [JFK New York] wt: 1.0
+...| (LAX) wt: 4.0 maxWt: 1.0
+...| | | [LAX Los Angeles] wt: 1.0
+...| | (ORD) wt: 2.0 maxWt: 1.0
+...| | | [ORD Chicago] wt: 1.0
+...Applying left rotation to <4> and <7>
+...Tree after rebalancing ORD
+...| | | [BWI Baltimore] wt: 1.0
+...| | <2> wt:4.0
+...| | | | [ATL Atlanta] wt: 1.0
+...| | | (BWI) wt: 4.0 maxWt: 1.0
+...| | | | | [BWI Baltimore] wt: 1.0
+...| | | | <3> wt:3.0
+...| | | | | | [BWI Baltimore] wt: 1.0
+...| | | | | (DCA) wt: 3.0 maxWt: 1.0
+...| | | | | | | [DCA Washington] wt: 1.0
+...| | | | | | <4> wt:2.0
+...| | | | | | | | [DCA Washington] wt: 1.0
+...| | | | | | | (IAD) wt: 2.0 maxWt: 1.0
+...| | | | | | | | [IAD Washington] wt: 1.0
+...| <4> wt:7.0
+...| | | | [ATL Atlanta] wt: 1.0
+...| | | (BWI) wt: 2.0 maxWt: 1.0
+...| | | | [BWI Baltimore] wt: 1.0
+...| | (DCA) wt: 7.0 maxWt: 1.0
+...| | | | | [DCA Washington] wt: 1.0
+...| | | | (IAD) wt: 4.0 maxWt: 1.0
+...| | | | | | [IAD Washington] wt: 1.0
+...| | | | | <5> wt:3.0
+...| | | | | | | | [IAD Washington] wt: 1.0
+...| | | | | | | <6> wt:2.0
+...| | | | | | | | | [IAD Washington] wt: 1.0
+...| | | | | | | | (JFK) wt: 2.0 maxWt: 1.0
+...| | | | | | | | | [JFK New York] wt: 1.0
+...| | | | | | (LAX) wt: 3.0 maxWt: 1.0
+...| | | | | | | [LAX Los Angeles] wt: 1.0
+...| | | <6> wt:5.0
+...| | | | | | [DCA Washington] wt: 1.0
+...| | | | | (IAD) wt: 2.0 maxWt: 1.0
+...| | | | | | [IAD Washington] wt: 1.0
+...| | | | (JFK) wt: 5.0 maxWt: 1.0
+...| | | | | | [JFK New York] wt: 1.0
+...| | | | | (LAX) wt: 3.0 maxWt: 1.0
+...| | | | | | | [LAX Los Angeles] wt: 1.0
+...| | | | | | <7> wt:2.0
+...| | | | | | | | [LAX Los Angeles] wt: 1.0
+...| | | | | | | (ORD) wt: 2.0 maxWt: 1.0
+...| | | | | | | | [ORD Chicago] wt: 1.0
+...<7> wt:7.0
+...| | | [ATL Atlanta] wt: 1.0
+...| | (BWI) wt: 3.0 maxWt: 1.0
+...| | | | [BWI Baltimore] wt: 1.0
+...| | | (DCA) wt: 2.0 maxWt: 1.0
+...| | | | [DCA Washington] wt: 1.0
+...| (IAD) wt: 7.0 maxWt: 1.0
+...| | | | [IAD Washington] wt: 1.0
+...| | | (JFK) wt: 2.0 maxWt: 1.0
+...| | | | [JFK New York] wt: 1.0
+...| | (LAX) wt: 4.0 maxWt: 1.0
+...| | | | [LAX Los Angeles] wt: 1.0
+...| | | (ORD) wt: 2.0 maxWt: 1.0
+...| | | | [ORD Chicago] wt: 1.0
+insert(ORD) at time = 7 : successful {Chicago OHare International, Chicago, USA, (41.0,-87.0)}
+...Inserting SFO wt: 1.0 at time: 8
+...Tree after insertion and before rebalancing SFO
+...| | | [BWI Baltimore] wt: 1.0
+...| | <2> wt:4.0
+...| | | | [ATL Atlanta] wt: 1.0
+...| | | (BWI) wt: 4.0 maxWt: 1.0
+...| | | | | [BWI Baltimore] wt: 1.0
+...| | | | <3> wt:3.0
+...| | | | | | [BWI Baltimore] wt: 1.0
+...| | | | | (DCA) wt: 3.0 maxWt: 1.0
+...| | | | | | | [DCA Washington] wt: 1.0
+...| | | | | | <4> wt:2.0
+...| | | | | | | | [DCA Washington] wt: 1.0
+...| | | | | | | (IAD) wt: 2.0 maxWt: 1.0
+...| | | | | | | | [IAD Washington] wt: 1.0
+...| <4> wt:7.0
+...| | | | [ATL Atlanta] wt: 1.0
+...| | | (BWI) wt: 2.0 maxWt: 1.0
+...| | | | [BWI Baltimore] wt: 1.0
+...| | (DCA) wt: 7.0 maxWt: 1.0
+...| | | | | [DCA Washington] wt: 1.0
+...| | | | (IAD) wt: 4.0 maxWt: 1.0
+...| | | | | | [IAD Washington] wt: 1.0
+...| | | | | <5> wt:3.0
+...| | | | | | | | [IAD Washington] wt: 1.0
+...| | | | | | | <6> wt:2.0
+...| | | | | | | | | [IAD Washington] wt: 1.0
+...| | | | | | | | (JFK) wt: 2.0 maxWt: 1.0
+...| | | | | | | | | [JFK New York] wt: 1.0
+...| | | | | | (LAX) wt: 3.0 maxWt: 1.0
+...| | | | | | | [LAX Los Angeles] wt: 1.0
+...| | | <6> wt:5.0
+...| | | | | | [DCA Washington] wt: 1.0
+...| | | | | (IAD) wt: 2.0 maxWt: 1.0
+...| | | | | | [IAD Washington] wt: 1.0
+...| | | | (JFK) wt: 5.0 maxWt: 1.0
+...| | | | | | [JFK New York] wt: 1.0
+...| | | | | (LAX) wt: 3.0 maxWt: 1.0
+...| | | | | | | [LAX Los Angeles] wt: 1.0
+...| | | | | | <7> wt:2.0
+...| | | | | | | | [LAX Los Angeles] wt: 1.0
+...| | | | | | | (ORD) wt: 2.0 maxWt: 1.0
+...| | | | | | | | [ORD Chicago] wt: 1.0
+...<7> wt:8.0
+...| | | [ATL Atlanta] wt: 1.0
+...| | (BWI) wt: 3.0 maxWt: 1.0
+...| | | | [BWI Baltimore] wt: 1.0
+...| | | (DCA) wt: 2.0 maxWt: 1.0
+...| | | | [DCA Washington] wt: 1.0
+...| (IAD) wt: 8.0 maxWt: 1.0
+...| | | | [IAD Washington] wt: 1.0
+...| | | (JFK) wt: 2.0 maxWt: 1.0
+...| | | | [JFK New York] wt: 1.0
+...| | (LAX) wt: 5.0 maxWt: 1.0
+...| | | | [LAX Los Angeles] wt: 1.0
+...| | | (ORD) wt: 3.0 maxWt: 1.0
+...| | | | | [ORD Chicago] wt: 1.0
+...| | | | <8> wt:2.0
+...| | | | | | [ORD Chicago] wt: 1.0
+...| | | | | (SFO) wt: 2.0 maxWt: 1.0
+...| | | | | | [SFO San Francisco] wt: 1.0
+...Checking node IAD balance-ratio = 0.625 max-ratio = 0.125 is balanced
+...Checking node LAX balance-ratio = 0.6 max-ratio = 0.2 is balanced
+...Checking node ORD balance-ratio = 0.6666667 max-ratio = 0.33333334 is balanced
+...Checking node SFO balance-ratio = 0.5 max-ratio = 0.5 is balanced
+...Tree after rebalancing SFO
+...| | | [BWI Baltimore] wt: 1.0
+...| | <2> wt:4.0
+...| | | | [ATL Atlanta] wt: 1.0
+...| | | (BWI) wt: 4.0 maxWt: 1.0
+...| | | | | [BWI Baltimore] wt: 1.0
+...| | | | <3> wt:3.0
+...| | | | | | [BWI Baltimore] wt: 1.0
+...| | | | | (DCA) wt: 3.0 maxWt: 1.0
+...| | | | | | | [DCA Washington] wt: 1.0
+...| | | | | | <4> wt:2.0
+...| | | | | | | | [DCA Washington] wt: 1.0
+...| | | | | | | (IAD) wt: 2.0 maxWt: 1.0
+...| | | | | | | | [IAD Washington] wt: 1.0
+...| <4> wt:7.0
+...| | | | [ATL Atlanta] wt: 1.0
+...| | | (BWI) wt: 2.0 maxWt: 1.0
+...| | | | [BWI Baltimore] wt: 1.0
+...| | (DCA) wt: 7.0 maxWt: 1.0
+...| | | | | [DCA Washington] wt: 1.0
+...| | | | (IAD) wt: 4.0 maxWt: 1.0
+...| | | | | | [IAD Washington] wt: 1.0
+...| | | | | <5> wt:3.0
+...| | | | | | | | [IAD Washington] wt: 1.0
+...| | | | | | | <6> wt:2.0
+...| | | | | | | | | [IAD Washington] wt: 1.0
+...| | | | | | | | (JFK) wt: 2.0 maxWt: 1.0
+...| | | | | | | | | [JFK New York] wt: 1.0
+...| | | | | | (LAX) wt: 3.0 maxWt: 1.0
+...| | | | | | | [LAX Los Angeles] wt: 1.0
+...| | | <6> wt:5.0
+...| | | | | | [DCA Washington] wt: 1.0
+...| | | | | (IAD) wt: 2.0 maxWt: 1.0
+...| | | | | | [IAD Washington] wt: 1.0
+...| | | | (JFK) wt: 5.0 maxWt: 1.0
+...| | | | | | [JFK New York] wt: 1.0
+...| | | | | (LAX) wt: 3.0 maxWt: 1.0
+...| | | | | | | [LAX Los Angeles] wt: 1.0
+...| | | | | | <7> wt:2.0
+...| | | | | | | | [LAX Los Angeles] wt: 1.0
+...| | | | | | | (ORD) wt: 2.0 maxWt: 1.0
+...| | | | | | | | [ORD Chicago] wt: 1.0
+...<7> wt:8.0
+...| | | [ATL Atlanta] wt: 1.0
+...| | (BWI) wt: 3.0 maxWt: 1.0
+...| | | | [BWI Baltimore] wt: 1.0
+...| | | (DCA) wt: 2.0 maxWt: 1.0
+...| | | | [DCA Washington] wt: 1.0
+...| (IAD) wt: 8.0 maxWt: 1.0
+...| | | | [IAD Washington] wt: 1.0
+...| | | (JFK) wt: 2.0 maxWt: 1.0
+...| | | | [JFK New York] wt: 1.0
+...| | (LAX) wt: 5.0 maxWt: 1.0
+...| | | | [LAX Los Angeles] wt: 1.0
+...| | | (ORD) wt: 3.0 maxWt: 1.0
+...| | | | | [ORD Chicago] wt: 1.0
+...| | | | <8> wt:2.0
+...| | | | | | [ORD Chicago] wt: 1.0
+...| | | | | (SFO) wt: 2.0 maxWt: 1.0
+...| | | | | | [SFO San Francisco] wt: 1.0
+insert(SFO) at time = 8 : successful {San Francisco International, San Francisco, USA, (37.0,-122.0)}
+Full-Preorder list at time = 8:
+  <7>
+  <4>
+  <2>
+  [BWI Baltimore] wt: 1.0
+  (BWI)
+  [ATL Atlanta] wt: 1.0
+  <3>
+  [BWI Baltimore] wt: 1.0
+  (DCA)
+  [BWI Baltimore] wt: 1.0
+  <4>
+  [DCA Washington] wt: 1.0
+  (IAD)
+  [DCA Washington] wt: 1.0
+  [IAD Washington] wt: 1.0
+  (DCA)
+  (BWI)
+  [ATL Atlanta] wt: 1.0
+  [BWI Baltimore] wt: 1.0
+  <6>
+  (IAD)
+  [DCA Washington] wt: 1.0
+  <5>
+  [IAD Washington] wt: 1.0
+  (LAX)
+  <6>
+  [IAD Washington] wt: 1.0
+  (JFK)
+  [IAD Washington] wt: 1.0
+  [JFK New York] wt: 1.0
+  [LAX Los Angeles] wt: 1.0
+  (JFK)
+  (IAD)
+  [DCA Washington] wt: 1.0
+  [IAD Washington] wt: 1.0
+  (LAX)
+  [JFK New York] wt: 1.0
+  <7>
+  [LAX Los Angeles] wt: 1.0
+  (ORD)
+  [LAX Los Angeles] wt: 1.0
+  [ORD Chicago] wt: 1.0
+  (IAD)
+  (BWI)
+  [ATL Atlanta] wt: 1.0
+  (DCA)
+  [BWI Baltimore] wt: 1.0
+  [DCA Washington] wt: 1.0
+  (LAX)
+  (JFK)
+  [IAD Washington] wt: 1.0
+  [JFK New York] wt: 1.0
+  (ORD)
+  [LAX Los Angeles] wt: 1.0
+  <8>
+  [ORD Chicago] wt: 1.0
+  (SFO)
+  [ORD Chicago] wt: 1.0
+  [SFO San Francisco] wt: 1.0
+Tree structure:
+  | | | [BWI Baltimore] wt: 1.0
+  | | <2>
+  | | | | [ATL Atlanta] wt: 1.0
+  | | | (BWI)
+  | | | | | [BWI Baltimore] wt: 1.0
+  | | | | <3>
+  | | | | | | [BWI Baltimore] wt: 1.0
+  | | | | | (DCA)
+  | | | | | | | [DCA Washington] wt: 1.0
+  | | | | | | <4>
+  | | | | | | | | [DCA Washington] wt: 1.0
+  | | | | | | | (IAD)
+  | | | | | | | | [IAD Washington] wt: 1.0
+  | <4>
+  | | | | [ATL Atlanta] wt: 1.0
+  | | | (BWI)
+  | | | | [BWI Baltimore] wt: 1.0
+  | | (DCA)
+  | | | | | [DCA Washington] wt: 1.0
+  | | | | (IAD)
+  | | | | | | [IAD Washington] wt: 1.0
+  | | | | | <5>
+  | | | | | | | | [IAD Washington] wt: 1.0
+  | | | | | | | <6>
+  | | | | | | | | | [IAD Washington] wt: 1.0
+  | | | | | | | | (JFK)
+  | | | | | | | | | [JFK New York] wt: 1.0
+  | | | | | | (LAX)
+  | | | | | | | [LAX Los Angeles] wt: 1.0
+  | | | <6>
+  | | | | | | [DCA Washington] wt: 1.0
+  | | | | | (IAD)
+  | | | | | | [IAD Washington] wt: 1.0
+  | | | | (JFK)
+  | | | | | | [JFK New York] wt: 1.0
+  | | | | | (LAX)
+  | | | | | | | [LAX Los Angeles] wt: 1.0
+  | | | | | | <7>
+  | | | | | | | | [LAX Los Angeles] wt: 1.0
+  | | | | | | | (ORD)
+  | | | | | | | | [ORD Chicago] wt: 1.0
+  <7>
+  | | | [ATL Atlanta] wt: 1.0
+  | | (BWI)
+  | | | | [BWI Baltimore] wt: 1.0
+  | | | (DCA)
+  | | | | [DCA Washington] wt: 1.0
+  | (IAD)
+  | | | | [IAD Washington] wt: 1.0
+  | | | (JFK)
+  | | | | [JFK New York] wt: 1.0
+  | | (LAX)
+  | | | | [LAX Los Angeles] wt: 1.0
+  | | | (ORD)
+  | | | | | [ORD Chicago] wt: 1.0
+  | | | | <8>
+  | | | | | | [ORD Chicago] wt: 1.0
+  | | | | | (SFO)
+  | | | | | | [SFO San Francisco] wt: 1.0
+Preorder list at time = 1:
+  [BWI Baltimore] wt: 1.0
+Tree structure:
+  [BWI Baltimore] wt: 1.0
+Preorder list at time = 2:
+  (BWI)
+  [ATL Atlanta] wt: 1.0
+  [BWI Baltimore] wt: 1.0
+Tree structure:
+  | [ATL Atlanta] wt: 1.0
+  (BWI)
+  | [BWI Baltimore] wt: 1.0
+Preorder list at time = 3:
+  (BWI)
+  [ATL Atlanta] wt: 1.0
+  (DCA)
+  [BWI Baltimore] wt: 1.0
+  [DCA Washington] wt: 1.0
+Tree structure:
+  | [ATL Atlanta] wt: 1.0
+  (BWI)
+  | | [BWI Baltimore] wt: 1.0
+  | (DCA)
+  | | [DCA Washington] wt: 1.0
+Preorder list at time = 4:
+  (DCA)
+  (BWI)
+  [ATL Atlanta] wt: 1.0
+  [BWI Baltimore] wt: 1.0
+  (IAD)
+  [DCA Washington] wt: 1.0
+  [IAD Washington] wt: 1.0
+Tree structure:
+  | | [ATL Atlanta] wt: 1.0
+  | (BWI)
+  | | [BWI Baltimore] wt: 1.0
+  (DCA)
+  | | [DCA Washington] wt: 1.0
+  | (IAD)
+  | | [IAD Washington] wt: 1.0
+Preorder list at time = 5:
+  (DCA)
+  (BWI)
+  [ATL Atlanta] wt: 1.0
+  [BWI Baltimore] wt: 1.0
+  (IAD)
+  [DCA Washington] wt: 1.0
+  (LAX)
+  [IAD Washington] wt: 1.0
+  [LAX Los Angeles] wt: 1.0
+Tree structure:
+  | | [ATL Atlanta] wt: 1.0
+  | (BWI)
+  | | [BWI Baltimore] wt: 1.0
+  (DCA)
+  | | [DCA Washington] wt: 1.0
+  | (IAD)
+  | | | [IAD Washington] wt: 1.0
+  | | (LAX)
+  | | | [LAX Los Angeles] wt: 1.0
+Preorder list at time = 6:
+  (DCA)
+  (BWI)
+  [ATL Atlanta] wt: 1.0
+  [BWI Baltimore] wt: 1.0
+  (JFK)
+  (IAD)
+  [DCA Washington] wt: 1.0
+  [IAD Washington] wt: 1.0
+  (LAX)
+  [JFK New York] wt: 1.0
+  [LAX Los Angeles] wt: 1.0
+Tree structure:
+  | | [ATL Atlanta] wt: 1.0
+  | (BWI)
+  | | [BWI Baltimore] wt: 1.0
+  (DCA)
+  | | | [DCA Washington] wt: 1.0
+  | | (IAD)
+  | | | [IAD Washington] wt: 1.0
+  | (JFK)
+  | | | [JFK New York] wt: 1.0
+  | | (LAX)
+  | | | [LAX Los Angeles] wt: 1.0
+Preorder list at time = 7:
+  (IAD)
+  (BWI)
+  [ATL Atlanta] wt: 1.0
+  (DCA)
+  [BWI Baltimore] wt: 1.0
+  [DCA Washington] wt: 1.0
+  (LAX)
+  (JFK)
+  [IAD Washington] wt: 1.0
+  [JFK New York] wt: 1.0
+  (ORD)
+  [LAX Los Angeles] wt: 1.0
+  [ORD Chicago] wt: 1.0
+Tree structure:
+  | | [ATL Atlanta] wt: 1.0
+  | (BWI)
+  | | | [BWI Baltimore] wt: 1.0
+  | | (DCA)
+  | | | [DCA Washington] wt: 1.0
+  (IAD)
+  | | | [IAD Washington] wt: 1.0
+  | | (JFK)
+  | | | [JFK New York] wt: 1.0
+  | (LAX)
+  | | | [LAX Los Angeles] wt: 1.0
+  | | (ORD)
+  | | | [ORD Chicago] wt: 1.0
+Preorder list at time = 8:
+  (IAD)
+  (BWI)
+  [ATL Atlanta] wt: 1.0
+  (DCA)
+  [BWI Baltimore] wt: 1.0
+  [DCA Washington] wt: 1.0
+  (LAX)
+  (JFK)
+  [IAD Washington] wt: 1.0
+  [JFK New York] wt: 1.0
+  (ORD)
+  [LAX Los Angeles] wt: 1.0
+  (SFO)
+  [ORD Chicago] wt: 1.0
+  [SFO San Francisco] wt: 1.0
+Tree structure:
+  | | [ATL Atlanta] wt: 1.0
+  | (BWI)
+  | | | [BWI Baltimore] wt: 1.0
+  | | (DCA)
+  | | | [DCA Washington] wt: 1.0
+  (IAD)
+  | | | [IAD Washington] wt: 1.0
+  | | (JFK)
+  | | | [JFK New York] wt: 1.0
+  | (LAX)
+  | | | [LAX Los Angeles] wt: 1.0
+  | | (ORD)
+  | | | | [ORD Chicago] wt: 1.0
+  | | | (SFO)
+  | | | | [SFO San Francisco] wt: 1.0
+find(LAX) at time = 5: found [Los Angeles]
+find(JFK) at time = 1: not found
+find(JJJ) at time = 2: not found
+find(ATL) at time = 4: found [Atlanta]
+find(SFO) at time = 3: not found
+find(AAA) at time = 8: not found
+find(ZZZ) at time = 7: not found
+find(MMM) at time = 9: not found
+find-down(BWI) at time = 1: found [Baltimore]
+find-down(ATL) at time = 3: found [Atlanta]
+find-down(SFO) at time = 6: found [Los Angeles]
+find-down(AAA) at time = 7: not found
+find-down(ZZZ) at time = 9: found [San Francisco]
+find-down(MMM) at time = 8: found [Los Angeles]
+find-up(IAD) at time = 2: not found
+find-up(LAX) at time = 3: not found
+find-up(SFO) at time = 9: found [San Francisco]
+find-up(ATL) at time = 7: found [Atlanta]
+find-up(AAA) at time = 6: found [Atlanta]
+find-up(ZZZ) at time = 4: not found
+find-up(MMM) at time = 1: not found
+Preorder list at time = 8:
+  (IAD)
+  (BWI)
+  [ATL Atlanta] wt: 1.0
+  (DCA)
+  [BWI Baltimore] wt: 1.0
+  [DCA Washington] wt: 1.0
+  (LAX)
+  (JFK)
+  [IAD Washington] wt: 1.0
+  [JFK New York] wt: 1.0
+  (ORD)
+  [LAX Los Angeles] wt: 1.0
+  (SFO)
+  [ORD Chicago] wt: 1.0
+  [SFO San Francisco] wt: 1.0
+Tree structure:
+  | | [ATL Atlanta] wt: 1.0
+  | (BWI)
+  | | | [BWI Baltimore] wt: 1.0
+  | | (DCA)
+  | | | [DCA Washington] wt: 1.0
+  (IAD)
+  | | | [IAD Washington] wt: 1.0
+  | | (JFK)
+  | | | [JFK New York] wt: 1.0
+  | (LAX)
+  | | | [LAX Los Angeles] wt: 1.0
+  | | (ORD)
+  | | | | [ORD Chicago] wt: 1.0
+  | | | (SFO)
+  | | | | [SFO San Francisco] wt: 1.0
+find-up(LAX) at time = 1: not found
+find-down(LAX) at time = 2: found [Baltimore]
+get-min at time = 5: found [Atlanta]
+get-max at time = 6: found [Los Angeles]

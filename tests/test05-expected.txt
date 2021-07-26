@@ -1,0 +1,1794 @@
+insert(UTT) at time = 1 : successful {UTT_GRuawWj, UTT_EfFUqTB, febSIFbRb, (141.6806,-62.986656)}
+insert(YRY) at time = 3 : successful {YRY_jW3Ac70Gy, YRY_iCw4iX, 6bDnCP, (141.93271,76.54393)}
+Preorder list at time = 4:
+  (YRY)
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  [YRY YRY_iCw4iX] wt: 653.0
+Tree structure:
+  | [UTT UTT_EfFUqTB] wt: 1321.0
+  (YRY)
+  | [YRY YRY_iCw4iX] wt: 653.0
+insert(MOE) at time = 5 : successful {MOE_viuxFp51i, MOE_htSrsdy, BMOTS9JK, (119.67462,51.376358)}
+insert(HER) at time = 7 : successful {HER_CDs8md60N0hxIOoYJ, HER_m4lApc9v7, 5FcUf7, (106.53192,-60.735085)}
+insert(RYC) at time = 9 : successful {RYC_NlmlVgzz76ag6j--o, RYC_1TB0VEpC5, cdopS, (-71.87741,33.488777)}
+Preorder list at time = 8:
+  (YRY)
+  (UTT)
+  (MOE)
+  [HER HER_m4lApc9v7] wt: 1745.0
+  [MOE MOE_htSrsdy] wt: 1936.0
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  [YRY YRY_iCw4iX] wt: 653.0
+Tree structure:
+  | | | [HER HER_m4lApc9v7] wt: 1745.0
+  | | (MOE)
+  | | | [MOE MOE_htSrsdy] wt: 1936.0
+  | (UTT)
+  | | [UTT UTT_EfFUqTB] wt: 1321.0
+  (YRY)
+  | [YRY YRY_iCw4iX] wt: 653.0
+find(UTT) at time = 2: found [UTT_EfFUqTB]
+find(HER) at time = 2: not found
+find(XES) at time = 2: not found
+Preorder list at time = 10:
+  (YRY)
+  (UTT)
+  (MOE)
+  [HER HER_m4lApc9v7] wt: 1745.0
+  (RYC)
+  [MOE MOE_htSrsdy] wt: 1936.0
+  [RYC RYC_1TB0VEpC5] wt: 1584.0
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  [YRY YRY_iCw4iX] wt: 653.0
+Tree structure:
+  | | | [HER HER_m4lApc9v7] wt: 1745.0
+  | | (MOE)
+  | | | | [MOE MOE_htSrsdy] wt: 1936.0
+  | | | (RYC)
+  | | | | [RYC RYC_1TB0VEpC5] wt: 1584.0
+  | (UTT)
+  | | [UTT UTT_EfFUqTB] wt: 1321.0
+  (YRY)
+  | [YRY YRY_iCw4iX] wt: 653.0
+Full-Preorder list at time = 10:
+  <3>
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  (YRY)
+  <5>
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  (UTT)
+  <7>
+  [MOE MOE_htSrsdy] wt: 1936.0
+  (MOE)
+  [HER HER_m4lApc9v7] wt: 1745.0
+  <9>
+  [MOE MOE_htSrsdy] wt: 1936.0
+  (RYC)
+  [MOE MOE_htSrsdy] wt: 1936.0
+  [RYC RYC_1TB0VEpC5] wt: 1584.0
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  [YRY YRY_iCw4iX] wt: 653.0
+Tree structure:
+  | [UTT UTT_EfFUqTB] wt: 1321.0
+  <3>
+  | | | [UTT UTT_EfFUqTB] wt: 1321.0
+  | | <5>
+  | | | | | [MOE MOE_htSrsdy] wt: 1936.0
+  | | | | <7>
+  | | | | | | [HER HER_m4lApc9v7] wt: 1745.0
+  | | | | | (MOE)
+  | | | | | | | [MOE MOE_htSrsdy] wt: 1936.0
+  | | | | | | <9>
+  | | | | | | | | [MOE MOE_htSrsdy] wt: 1936.0
+  | | | | | | | (RYC)
+  | | | | | | | | [RYC RYC_1TB0VEpC5] wt: 1584.0
+  | | | (UTT)
+  | | | | [UTT UTT_EfFUqTB] wt: 1321.0
+  | (YRY)
+  | | [YRY YRY_iCw4iX] wt: 653.0
+insert(DJW) at time = 11 : successful {DJW_emPgs8-WtO2Nx4, DJW_LMhYY, DK-EzFt, (-19.44838,55.351227)}
+insert(AQU) at time = 13 : successful {AQU_XnaRuUOXTYVYzwt, AQU_wNSMfc, eLtTcm, (-13.906586,41.853104)}
+insert(DMH) at time = 15 : successful {DMH_aDlj0Ew4xoSjyvxAoYC, DMH_W4q8rCLHg, Oy7BAwXEZ, (125.895294,-42.140293)}
+insert(EJV) at time = 17 : successful {EJV_MxT7MseBxvWgWwUX7, EJV_6giaM-52, 0nnjV087-, (-50.63878,-76.83091)}
+insert(ENV) at time = 19 : successful {ENV_5PS8FbzZxQO, ENV_7s3rP, YJ9zSjwZF, (-178.15533,-56.925743)}
+Preorder list at time = 20:
+  (MOE)
+  (DMH)
+  (DJW)
+  [AQU AQU_wNSMfc] wt: 783.0
+  [DJW DJW_LMhYY] wt: 1249.0
+  (HER)
+  (EJV)
+  [DMH DMH_W4q8rCLHg] wt: 1663.0
+  (ENV)
+  [EJV EJV_6giaM-52] wt: 866.0
+  [ENV ENV_7s3rP] wt: 653.0
+  [HER HER_m4lApc9v7] wt: 1745.0
+  (UTT)
+  (RYC)
+  [MOE MOE_htSrsdy] wt: 1936.0
+  [RYC RYC_1TB0VEpC5] wt: 1584.0
+  (YRY)
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  [YRY YRY_iCw4iX] wt: 653.0
+Tree structure:
+  | | | [AQU AQU_wNSMfc] wt: 783.0
+  | | (DJW)
+  | | | [DJW DJW_LMhYY] wt: 1249.0
+  | (DMH)
+  | | | | [DMH DMH_W4q8rCLHg] wt: 1663.0
+  | | | (EJV)
+  | | | | | [EJV EJV_6giaM-52] wt: 866.0
+  | | | | (ENV)
+  | | | | | [ENV ENV_7s3rP] wt: 653.0
+  | | (HER)
+  | | | [HER HER_m4lApc9v7] wt: 1745.0
+  (MOE)
+  | | | [MOE MOE_htSrsdy] wt: 1936.0
+  | | (RYC)
+  | | | [RYC RYC_1TB0VEpC5] wt: 1584.0
+  | (UTT)
+  | | | [UTT UTT_EfFUqTB] wt: 1321.0
+  | | (YRY)
+  | | | [YRY YRY_iCw4iX] wt: 653.0
+Full-Preorder list at time = 20:
+  <15>
+  <11>
+  <3>
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  (YRY)
+  <5>
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  (UTT)
+  <7>
+  [MOE MOE_htSrsdy] wt: 1936.0
+  (MOE)
+  <11>
+  [HER HER_m4lApc9v7] wt: 1745.0
+  (HER)
+  [DJW DJW_LMhYY] wt: 1249.0
+  [HER HER_m4lApc9v7] wt: 1745.0
+  <9>
+  [MOE MOE_htSrsdy] wt: 1936.0
+  (RYC)
+  [MOE MOE_htSrsdy] wt: 1936.0
+  [RYC RYC_1TB0VEpC5] wt: 1584.0
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  [YRY YRY_iCw4iX] wt: 653.0
+  (RYC)
+  (MOE)
+  (HER)
+  <13>
+  [DJW DJW_LMhYY] wt: 1249.0
+  (DJW)
+  [AQU AQU_wNSMfc] wt: 783.0
+  <15>
+  [DJW DJW_LMhYY] wt: 1249.0
+  (DMH)
+  [DJW DJW_LMhYY] wt: 1249.0
+  [DMH DMH_W4q8rCLHg] wt: 1663.0
+  [HER HER_m4lApc9v7] wt: 1745.0
+  [MOE MOE_htSrsdy] wt: 1936.0
+  (UTT)
+  [RYC RYC_1TB0VEpC5] wt: 1584.0
+  (YRY)
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  [YRY YRY_iCw4iX] wt: 653.0
+  (MOE)
+  (DMH)
+  (DJW)
+  [AQU AQU_wNSMfc] wt: 783.0
+  [DJW DJW_LMhYY] wt: 1249.0
+  (HER)
+  <17>
+  [DMH DMH_W4q8rCLHg] wt: 1663.0
+  (EJV)
+  [DMH DMH_W4q8rCLHg] wt: 1663.0
+  <19>
+  [EJV EJV_6giaM-52] wt: 866.0
+  (ENV)
+  [EJV EJV_6giaM-52] wt: 866.0
+  [ENV ENV_7s3rP] wt: 653.0
+  [HER HER_m4lApc9v7] wt: 1745.0
+  (UTT)
+  (RYC)
+  [MOE MOE_htSrsdy] wt: 1936.0
+  [RYC RYC_1TB0VEpC5] wt: 1584.0
+  (YRY)
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  [YRY YRY_iCw4iX] wt: 653.0
+Tree structure:
+  | | | [UTT UTT_EfFUqTB] wt: 1321.0
+  | | <3>
+  | | | | | [UTT UTT_EfFUqTB] wt: 1321.0
+  | | | | <5>
+  | | | | | | | [MOE MOE_htSrsdy] wt: 1936.0
+  | | | | | | <7>
+  | | | | | | | | | [HER HER_m4lApc9v7] wt: 1745.0
+  | | | | | | | | <11>
+  | | | | | | | | | | [DJW DJW_LMhYY] wt: 1249.0
+  | | | | | | | | | (HER)
+  | | | | | | | | | | [HER HER_m4lApc9v7] wt: 1745.0
+  | | | | | | | (MOE)
+  | | | | | | | | | [MOE MOE_htSrsdy] wt: 1936.0
+  | | | | | | | | <9>
+  | | | | | | | | | | [MOE MOE_htSrsdy] wt: 1936.0
+  | | | | | | | | | (RYC)
+  | | | | | | | | | | [RYC RYC_1TB0VEpC5] wt: 1584.0
+  | | | | | (UTT)
+  | | | | | | [UTT UTT_EfFUqTB] wt: 1321.0
+  | | | (YRY)
+  | | | | [YRY YRY_iCw4iX] wt: 653.0
+  | <11>
+  | | | | | | [DJW DJW_LMhYY] wt: 1249.0
+  | | | | | <13>
+  | | | | | | | [AQU AQU_wNSMfc] wt: 783.0
+  | | | | | | (DJW)
+  | | | | | | | | [DJW DJW_LMhYY] wt: 1249.0
+  | | | | | | | <15>
+  | | | | | | | | | [DJW DJW_LMhYY] wt: 1249.0
+  | | | | | | | | (DMH)
+  | | | | | | | | | [DMH DMH_W4q8rCLHg] wt: 1663.0
+  | | | | (HER)
+  | | | | | [HER HER_m4lApc9v7] wt: 1745.0
+  | | | (MOE)
+  | | | | [MOE MOE_htSrsdy] wt: 1936.0
+  | | (RYC)
+  | | | | [RYC RYC_1TB0VEpC5] wt: 1584.0
+  | | | (UTT)
+  | | | | | [UTT UTT_EfFUqTB] wt: 1321.0
+  | | | | (YRY)
+  | | | | | [YRY YRY_iCw4iX] wt: 653.0
+  <15>
+  | | | | [AQU AQU_wNSMfc] wt: 783.0
+  | | | (DJW)
+  | | | | [DJW DJW_LMhYY] wt: 1249.0
+  | | (DMH)
+  | | | | | [DMH DMH_W4q8rCLHg] wt: 1663.0
+  | | | | <17>
+  | | | | | | [DMH DMH_W4q8rCLHg] wt: 1663.0
+  | | | | | (EJV)
+  | | | | | | | [EJV EJV_6giaM-52] wt: 866.0
+  | | | | | | <19>
+  | | | | | | | | [EJV EJV_6giaM-52] wt: 866.0
+  | | | | | | | (ENV)
+  | | | | | | | | [ENV ENV_7s3rP] wt: 653.0
+  | | | (HER)
+  | | | | [HER HER_m4lApc9v7] wt: 1745.0
+  | (MOE)
+  | | | | [MOE MOE_htSrsdy] wt: 1936.0
+  | | | (RYC)
+  | | | | [RYC RYC_1TB0VEpC5] wt: 1584.0
+  | | (UTT)
+  | | | | [UTT UTT_EfFUqTB] wt: 1321.0
+  | | | (YRY)
+  | | | | [YRY YRY_iCw4iX] wt: 653.0
+insert(RLR) at time = 21 : successful {RLR_hG4q84deHRaXCCP, RLR_7FlwexV, bHs603Sjy, (-3.238739,-17.093056)}
+insert(XVK) at time = 23 : successful {XVK_HgH34k3M2CHtH, XVK_AVSgG2, ivdkBgKn, (-166.52948,-54.383312)}
+insert(VPB) at time = 25 : successful {VPB_ldfrPDoBZnlJ98V4Vh, VPB_mCwbzOp, jcZZmtmot, (-53.20108,-6.3302917)}
+insert(XES) at time = 27 : successful {XES_vQ8lHGTp-Lbk, XES_6ox8Fi, jagFHMu, (28.29889,33.72751)}
+insert(ERX) at time = 29 : successful {ERX_PIVZFrT0VNonhJ0, ERX_-Rp25l, MWy8Cjc8, (65.79729,-17.586174)}
+Preorder list at time = 30:
+  (MOE)
+  (ENV)
+  (DMH)
+  (DJW)
+  [AQU AQU_wNSMfc] wt: 783.0
+  [DJW DJW_LMhYY] wt: 1249.0
+  (EJV)
+  [DMH DMH_W4q8rCLHg] wt: 1663.0
+  [EJV EJV_6giaM-52] wt: 866.0
+  (HER)
+  (ERX)
+  [ENV ENV_7s3rP] wt: 653.0
+  [ERX ERX_-Rp25l] wt: 1517.0
+  [HER HER_m4lApc9v7] wt: 1745.0
+  (UTT)
+  (RYC)
+  (RLR)
+  [MOE MOE_htSrsdy] wt: 1936.0
+  [RLR RLR_7FlwexV] wt: 1137.0
+  [RYC RYC_1TB0VEpC5] wt: 1584.0
+  (YRY)
+  (XVK)
+  (VPB)
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  (XES)
+  [VPB VPB_mCwbzOp] wt: 1467.0
+  [XES XES_6ox8Fi] wt: 1656.0
+  [XVK XVK_AVSgG2] wt: 1061.0
+  [YRY YRY_iCw4iX] wt: 653.0
+Tree structure:
+  | | | | [AQU AQU_wNSMfc] wt: 783.0
+  | | | (DJW)
+  | | | | [DJW DJW_LMhYY] wt: 1249.0
+  | | (DMH)
+  | | | | [DMH DMH_W4q8rCLHg] wt: 1663.0
+  | | | (EJV)
+  | | | | [EJV EJV_6giaM-52] wt: 866.0
+  | (ENV)
+  | | | | [ENV ENV_7s3rP] wt: 653.0
+  | | | (ERX)
+  | | | | [ERX ERX_-Rp25l] wt: 1517.0
+  | | (HER)
+  | | | [HER HER_m4lApc9v7] wt: 1745.0
+  (MOE)
+  | | | | [MOE MOE_htSrsdy] wt: 1936.0
+  | | | (RLR)
+  | | | | [RLR RLR_7FlwexV] wt: 1137.0
+  | | (RYC)
+  | | | [RYC RYC_1TB0VEpC5] wt: 1584.0
+  | (UTT)
+  | | | | | [UTT UTT_EfFUqTB] wt: 1321.0
+  | | | | (VPB)
+  | | | | | | [VPB VPB_mCwbzOp] wt: 1467.0
+  | | | | | (XES)
+  | | | | | | [XES XES_6ox8Fi] wt: 1656.0
+  | | | (XVK)
+  | | | | [XVK XVK_AVSgG2] wt: 1061.0
+  | | (YRY)
+  | | | [YRY YRY_iCw4iX] wt: 653.0
+Preorder list at time = 30:
+  (MOE)
+  (ENV)
+  (DMH)
+  (DJW)
+  [AQU AQU_wNSMfc] wt: 783.0
+  [DJW DJW_LMhYY] wt: 1249.0
+  (EJV)
+  [DMH DMH_W4q8rCLHg] wt: 1663.0
+  [EJV EJV_6giaM-52] wt: 866.0
+  (HER)
+  (ERX)
+  [ENV ENV_7s3rP] wt: 653.0
+  [ERX ERX_-Rp25l] wt: 1517.0
+  [HER HER_m4lApc9v7] wt: 1745.0
+  (UTT)
+  (RYC)
+  (RLR)
+  [MOE MOE_htSrsdy] wt: 1936.0
+  [RLR RLR_7FlwexV] wt: 1137.0
+  [RYC RYC_1TB0VEpC5] wt: 1584.0
+  (YRY)
+  (XVK)
+  (VPB)
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  (XES)
+  [VPB VPB_mCwbzOp] wt: 1467.0
+  [XES XES_6ox8Fi] wt: 1656.0
+  [XVK XVK_AVSgG2] wt: 1061.0
+  [YRY YRY_iCw4iX] wt: 653.0
+Tree structure:
+  | | | | [AQU AQU_wNSMfc] wt: 783.0
+  | | | (DJW)
+  | | | | [DJW DJW_LMhYY] wt: 1249.0
+  | | (DMH)
+  | | | | [DMH DMH_W4q8rCLHg] wt: 1663.0
+  | | | (EJV)
+  | | | | [EJV EJV_6giaM-52] wt: 866.0
+  | (ENV)
+  | | | | [ENV ENV_7s3rP] wt: 653.0
+  | | | (ERX)
+  | | | | [ERX ERX_-Rp25l] wt: 1517.0
+  | | (HER)
+  | | | [HER HER_m4lApc9v7] wt: 1745.0
+  (MOE)
+  | | | | [MOE MOE_htSrsdy] wt: 1936.0
+  | | | (RLR)
+  | | | | [RLR RLR_7FlwexV] wt: 1137.0
+  | | (RYC)
+  | | | [RYC RYC_1TB0VEpC5] wt: 1584.0
+  | (UTT)
+  | | | | | [UTT UTT_EfFUqTB] wt: 1321.0
+  | | | | (VPB)
+  | | | | | | [VPB VPB_mCwbzOp] wt: 1467.0
+  | | | | | (XES)
+  | | | | | | [XES XES_6ox8Fi] wt: 1656.0
+  | | | (XVK)
+  | | | | [XVK XVK_AVSgG2] wt: 1061.0
+  | | (YRY)
+  | | | [YRY YRY_iCw4iX] wt: 653.0
+Full-Preorder list at time = 30:
+  <15>
+  <11>
+  <3>
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  (YRY)
+  <5>
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  (UTT)
+  <7>
+  [MOE MOE_htSrsdy] wt: 1936.0
+  (MOE)
+  <11>
+  [HER HER_m4lApc9v7] wt: 1745.0
+  (HER)
+  [DJW DJW_LMhYY] wt: 1249.0
+  [HER HER_m4lApc9v7] wt: 1745.0
+  <9>
+  [MOE MOE_htSrsdy] wt: 1936.0
+  (RYC)
+  [MOE MOE_htSrsdy] wt: 1936.0
+  [RYC RYC_1TB0VEpC5] wt: 1584.0
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  [YRY YRY_iCw4iX] wt: 653.0
+  (RYC)
+  (MOE)
+  (HER)
+  <13>
+  [DJW DJW_LMhYY] wt: 1249.0
+  (DJW)
+  [AQU AQU_wNSMfc] wt: 783.0
+  <15>
+  [DJW DJW_LMhYY] wt: 1249.0
+  (DMH)
+  [DJW DJW_LMhYY] wt: 1249.0
+  [DMH DMH_W4q8rCLHg] wt: 1663.0
+  [HER HER_m4lApc9v7] wt: 1745.0
+  [MOE MOE_htSrsdy] wt: 1936.0
+  (UTT)
+  [RYC RYC_1TB0VEpC5] wt: 1584.0
+  (YRY)
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  [YRY YRY_iCw4iX] wt: 653.0
+  (MOE)
+  <29>
+  (DMH)
+  (DJW)
+  [AQU AQU_wNSMfc] wt: 783.0
+  [DJW DJW_LMhYY] wt: 1249.0
+  (HER)
+  <17>
+  [DMH DMH_W4q8rCLHg] wt: 1663.0
+  (EJV)
+  [DMH DMH_W4q8rCLHg] wt: 1663.0
+  <19>
+  [EJV EJV_6giaM-52] wt: 866.0
+  (ENV)
+  [EJV EJV_6giaM-52] wt: 866.0
+  <29>
+  [ENV ENV_7s3rP] wt: 653.0
+  (ERX)
+  [ENV ENV_7s3rP] wt: 653.0
+  [ERX ERX_-Rp25l] wt: 1517.0
+  [HER HER_m4lApc9v7] wt: 1745.0
+  (ENV)
+  (DMH)
+  (DJW)
+  [AQU AQU_wNSMfc] wt: 783.0
+  [DJW DJW_LMhYY] wt: 1249.0
+  (EJV)
+  [DMH DMH_W4q8rCLHg] wt: 1663.0
+  [EJV EJV_6giaM-52] wt: 866.0
+  (HER)
+  (ERX)
+  [ENV ENV_7s3rP] wt: 653.0
+  [ERX ERX_-Rp25l] wt: 1517.0
+  [HER HER_m4lApc9v7] wt: 1745.0
+  (UTT)
+  (RYC)
+  <21>
+  [MOE MOE_htSrsdy] wt: 1936.0
+  (RLR)
+  [MOE MOE_htSrsdy] wt: 1936.0
+  [RLR RLR_7FlwexV] wt: 1137.0
+  [RYC RYC_1TB0VEpC5] wt: 1584.0
+  (YRY)
+  <23>
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  (XVK)
+  <25>
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  (VPB)
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  <27>
+  [VPB VPB_mCwbzOp] wt: 1467.0
+  (XES)
+  [VPB VPB_mCwbzOp] wt: 1467.0
+  [XES XES_6ox8Fi] wt: 1656.0
+  [XVK XVK_AVSgG2] wt: 1061.0
+  [YRY YRY_iCw4iX] wt: 653.0
+Tree structure:
+  | | | [UTT UTT_EfFUqTB] wt: 1321.0
+  | | <3>
+  | | | | | [UTT UTT_EfFUqTB] wt: 1321.0
+  | | | | <5>
+  | | | | | | | [MOE MOE_htSrsdy] wt: 1936.0
+  | | | | | | <7>
+  | | | | | | | | | [HER HER_m4lApc9v7] wt: 1745.0
+  | | | | | | | | <11>
+  | | | | | | | | | | [DJW DJW_LMhYY] wt: 1249.0
+  | | | | | | | | | (HER)
+  | | | | | | | | | | [HER HER_m4lApc9v7] wt: 1745.0
+  | | | | | | | (MOE)
+  | | | | | | | | | [MOE MOE_htSrsdy] wt: 1936.0
+  | | | | | | | | <9>
+  | | | | | | | | | | [MOE MOE_htSrsdy] wt: 1936.0
+  | | | | | | | | | (RYC)
+  | | | | | | | | | | [RYC RYC_1TB0VEpC5] wt: 1584.0
+  | | | | | (UTT)
+  | | | | | | [UTT UTT_EfFUqTB] wt: 1321.0
+  | | | (YRY)
+  | | | | [YRY YRY_iCw4iX] wt: 653.0
+  | <11>
+  | | | | | | [DJW DJW_LMhYY] wt: 1249.0
+  | | | | | <13>
+  | | | | | | | [AQU AQU_wNSMfc] wt: 783.0
+  | | | | | | (DJW)
+  | | | | | | | | [DJW DJW_LMhYY] wt: 1249.0
+  | | | | | | | <15>
+  | | | | | | | | | [DJW DJW_LMhYY] wt: 1249.0
+  | | | | | | | | (DMH)
+  | | | | | | | | | [DMH DMH_W4q8rCLHg] wt: 1663.0
+  | | | | (HER)
+  | | | | | [HER HER_m4lApc9v7] wt: 1745.0
+  | | | (MOE)
+  | | | | [MOE MOE_htSrsdy] wt: 1936.0
+  | | (RYC)
+  | | | | [RYC RYC_1TB0VEpC5] wt: 1584.0
+  | | | (UTT)
+  | | | | | [UTT UTT_EfFUqTB] wt: 1321.0
+  | | | | (YRY)
+  | | | | | [YRY YRY_iCw4iX] wt: 653.0
+  <15>
+  | | | | | [AQU AQU_wNSMfc] wt: 783.0
+  | | | | (DJW)
+  | | | | | [DJW DJW_LMhYY] wt: 1249.0
+  | | | (DMH)
+  | | | | | | [DMH DMH_W4q8rCLHg] wt: 1663.0
+  | | | | | <17>
+  | | | | | | | [DMH DMH_W4q8rCLHg] wt: 1663.0
+  | | | | | | (EJV)
+  | | | | | | | | [EJV EJV_6giaM-52] wt: 866.0
+  | | | | | | | <19>
+  | | | | | | | | | [EJV EJV_6giaM-52] wt: 866.0
+  | | | | | | | | (ENV)
+  | | | | | | | | | | [ENV ENV_7s3rP] wt: 653.0
+  | | | | | | | | | <29>
+  | | | | | | | | | | | [ENV ENV_7s3rP] wt: 653.0
+  | | | | | | | | | | (ERX)
+  | | | | | | | | | | | [ERX ERX_-Rp25l] wt: 1517.0
+  | | | | (HER)
+  | | | | | [HER HER_m4lApc9v7] wt: 1745.0
+  | | <29>
+  | | | | | | [AQU AQU_wNSMfc] wt: 783.0
+  | | | | | (DJW)
+  | | | | | | [DJW DJW_LMhYY] wt: 1249.0
+  | | | | (DMH)
+  | | | | | | [DMH DMH_W4q8rCLHg] wt: 1663.0
+  | | | | | (EJV)
+  | | | | | | [EJV EJV_6giaM-52] wt: 866.0
+  | | | (ENV)
+  | | | | | | [ENV ENV_7s3rP] wt: 653.0
+  | | | | | (ERX)
+  | | | | | | [ERX ERX_-Rp25l] wt: 1517.0
+  | | | | (HER)
+  | | | | | [HER HER_m4lApc9v7] wt: 1745.0
+  | (MOE)
+  | | | | | [MOE MOE_htSrsdy] wt: 1936.0
+  | | | | <21>
+  | | | | | | [MOE MOE_htSrsdy] wt: 1936.0
+  | | | | | (RLR)
+  | | | | | | [RLR RLR_7FlwexV] wt: 1137.0
+  | | | (RYC)
+  | | | | [RYC RYC_1TB0VEpC5] wt: 1584.0
+  | | (UTT)
+  | | | | | [UTT UTT_EfFUqTB] wt: 1321.0
+  | | | | <23>
+  | | | | | | | [UTT UTT_EfFUqTB] wt: 1321.0
+  | | | | | | <25>
+  | | | | | | | | [UTT UTT_EfFUqTB] wt: 1321.0
+  | | | | | | | (VPB)
+  | | | | | | | | | [VPB VPB_mCwbzOp] wt: 1467.0
+  | | | | | | | | <27>
+  | | | | | | | | | | [VPB VPB_mCwbzOp] wt: 1467.0
+  | | | | | | | | | (XES)
+  | | | | | | | | | | [XES XES_6ox8Fi] wt: 1656.0
+  | | | | | (XVK)
+  | | | | | | [XVK XVK_AVSgG2] wt: 1061.0
+  | | | (YRY)
+  | | | | [YRY YRY_iCw4iX] wt: 653.0
+insert(SJY) at time = 31 : successful {SJY_VF2JUtuIoNK, SJY_4TB40iJwE, UkdIy6, (45.33525,29.42276)}
+insert(ELW) at time = 33 : successful {ELW_8fdeKd-IXxo, ELW_ocB5LrZ, 0kHSQCJK, (-66.94682,22.073425)}
+Preorder list at time = 16:
+  (MOE)
+  (DMH)
+  (DJW)
+  [AQU AQU_wNSMfc] wt: 783.0
+  [DJW DJW_LMhYY] wt: 1249.0
+  (HER)
+  [DMH DMH_W4q8rCLHg] wt: 1663.0
+  [HER HER_m4lApc9v7] wt: 1745.0
+  (UTT)
+  (RYC)
+  [MOE MOE_htSrsdy] wt: 1936.0
+  [RYC RYC_1TB0VEpC5] wt: 1584.0
+  (YRY)
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  [YRY YRY_iCw4iX] wt: 653.0
+Tree structure:
+  | | | [AQU AQU_wNSMfc] wt: 783.0
+  | | (DJW)
+  | | | [DJW DJW_LMhYY] wt: 1249.0
+  | (DMH)
+  | | | [DMH DMH_W4q8rCLHg] wt: 1663.0
+  | | (HER)
+  | | | [HER HER_m4lApc9v7] wt: 1745.0
+  (MOE)
+  | | | [MOE MOE_htSrsdy] wt: 1936.0
+  | | (RYC)
+  | | | [RYC RYC_1TB0VEpC5] wt: 1584.0
+  | (UTT)
+  | | | [UTT UTT_EfFUqTB] wt: 1321.0
+  | | (YRY)
+  | | | [YRY YRY_iCw4iX] wt: 653.0
+insert(ZHV) at time = 35 : successful {ZHV_sIAxSei07bv-F, ZHV_k2dfzl8, 1RT7f, (125.27692,-87.403366)}
+insert(PWV) at time = 37 : successful {PWV_8122iBqxFBhP7HT, PWV_QMWNezS, MnEmn74Ry, (-102.76328,4.7776566)}
+Preorder list at time = 16:
+  (MOE)
+  (DMH)
+  (DJW)
+  [AQU AQU_wNSMfc] wt: 783.0
+  [DJW DJW_LMhYY] wt: 1249.0
+  (HER)
+  [DMH DMH_W4q8rCLHg] wt: 1663.0
+  [HER HER_m4lApc9v7] wt: 1745.0
+  (UTT)
+  (RYC)
+  [MOE MOE_htSrsdy] wt: 1936.0
+  [RYC RYC_1TB0VEpC5] wt: 1584.0
+  (YRY)
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  [YRY YRY_iCw4iX] wt: 653.0
+Tree structure:
+  | | | [AQU AQU_wNSMfc] wt: 783.0
+  | | (DJW)
+  | | | [DJW DJW_LMhYY] wt: 1249.0
+  | (DMH)
+  | | | [DMH DMH_W4q8rCLHg] wt: 1663.0
+  | | (HER)
+  | | | [HER HER_m4lApc9v7] wt: 1745.0
+  (MOE)
+  | | | [MOE MOE_htSrsdy] wt: 1936.0
+  | | (RYC)
+  | | | [RYC RYC_1TB0VEpC5] wt: 1584.0
+  | (UTT)
+  | | | [UTT UTT_EfFUqTB] wt: 1321.0
+  | | (YRY)
+  | | | [YRY YRY_iCw4iX] wt: 653.0
+insert(OEU) at time = 39 : successful {OEU_xJaWpN5OHikbVT5, OEU_RxkiI, P75RPZG, (164.53793,-14.575508)}
+Preorder list at time = 30:
+  (MOE)
+  (ENV)
+  (DMH)
+  (DJW)
+  [AQU AQU_wNSMfc] wt: 783.0
+  [DJW DJW_LMhYY] wt: 1249.0
+  (EJV)
+  [DMH DMH_W4q8rCLHg] wt: 1663.0
+  [EJV EJV_6giaM-52] wt: 866.0
+  (HER)
+  (ERX)
+  [ENV ENV_7s3rP] wt: 653.0
+  [ERX ERX_-Rp25l] wt: 1517.0
+  [HER HER_m4lApc9v7] wt: 1745.0
+  (UTT)
+  (RYC)
+  (RLR)
+  [MOE MOE_htSrsdy] wt: 1936.0
+  [RLR RLR_7FlwexV] wt: 1137.0
+  [RYC RYC_1TB0VEpC5] wt: 1584.0
+  (YRY)
+  (XVK)
+  (VPB)
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  (XES)
+  [VPB VPB_mCwbzOp] wt: 1467.0
+  [XES XES_6ox8Fi] wt: 1656.0
+  [XVK XVK_AVSgG2] wt: 1061.0
+  [YRY YRY_iCw4iX] wt: 653.0
+Tree structure:
+  | | | | [AQU AQU_wNSMfc] wt: 783.0
+  | | | (DJW)
+  | | | | [DJW DJW_LMhYY] wt: 1249.0
+  | | (DMH)
+  | | | | [DMH DMH_W4q8rCLHg] wt: 1663.0
+  | | | (EJV)
+  | | | | [EJV EJV_6giaM-52] wt: 866.0
+  | (ENV)
+  | | | | [ENV ENV_7s3rP] wt: 653.0
+  | | | (ERX)
+  | | | | [ERX ERX_-Rp25l] wt: 1517.0
+  | | (HER)
+  | | | [HER HER_m4lApc9v7] wt: 1745.0
+  (MOE)
+  | | | | [MOE MOE_htSrsdy] wt: 1936.0
+  | | | (RLR)
+  | | | | [RLR RLR_7FlwexV] wt: 1137.0
+  | | (RYC)
+  | | | [RYC RYC_1TB0VEpC5] wt: 1584.0
+  | (UTT)
+  | | | | | [UTT UTT_EfFUqTB] wt: 1321.0
+  | | | | (VPB)
+  | | | | | | [VPB VPB_mCwbzOp] wt: 1467.0
+  | | | | | (XES)
+  | | | | | | [XES XES_6ox8Fi] wt: 1656.0
+  | | | (XVK)
+  | | | | [XVK XVK_AVSgG2] wt: 1061.0
+  | | (YRY)
+  | | | [YRY YRY_iCw4iX] wt: 653.0
+Preorder list at time = 40:
+  (MOE)
+  (ENV)
+  (DMH)
+  (DJW)
+  [AQU AQU_wNSMfc] wt: 783.0
+  [DJW DJW_LMhYY] wt: 1249.0
+  (EJV)
+  [DMH DMH_W4q8rCLHg] wt: 1663.0
+  (ELW)
+  [EJV EJV_6giaM-52] wt: 866.0
+  [ELW ELW_ocB5LrZ] wt: 930.0
+  (HER)
+  (ERX)
+  [ENV ENV_7s3rP] wt: 653.0
+  [ERX ERX_-Rp25l] wt: 1517.0
+  [HER HER_m4lApc9v7] wt: 1745.0
+  (UTT)
+  (RYC)
+  (RLR)
+  (PWV)
+  (OEU)
+  [MOE MOE_htSrsdy] wt: 1936.0
+  [OEU OEU_RxkiI] wt: 1425.0
+  [PWV PWV_QMWNezS] wt: 292.0
+  [RLR RLR_7FlwexV] wt: 1137.0
+  (SJY)
+  [RYC RYC_1TB0VEpC5] wt: 1584.0
+  [SJY SJY_4TB40iJwE] wt: 410.0
+  (XVK)
+  (XES)
+  (VPB)
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  [VPB VPB_mCwbzOp] wt: 1467.0
+  [XES XES_6ox8Fi] wt: 1656.0
+  (ZHV)
+  (YRY)
+  [XVK XVK_AVSgG2] wt: 1061.0
+  [YRY YRY_iCw4iX] wt: 653.0
+  [ZHV ZHV_k2dfzl8] wt: 1901.0
+Tree structure:
+  | | | | [AQU AQU_wNSMfc] wt: 783.0
+  | | | (DJW)
+  | | | | [DJW DJW_LMhYY] wt: 1249.0
+  | | (DMH)
+  | | | | [DMH DMH_W4q8rCLHg] wt: 1663.0
+  | | | (EJV)
+  | | | | | [EJV EJV_6giaM-52] wt: 866.0
+  | | | | (ELW)
+  | | | | | [ELW ELW_ocB5LrZ] wt: 930.0
+  | (ENV)
+  | | | | [ENV ENV_7s3rP] wt: 653.0
+  | | | (ERX)
+  | | | | [ERX ERX_-Rp25l] wt: 1517.0
+  | | (HER)
+  | | | [HER HER_m4lApc9v7] wt: 1745.0
+  (MOE)
+  | | | | | | [MOE MOE_htSrsdy] wt: 1936.0
+  | | | | | (OEU)
+  | | | | | | [OEU OEU_RxkiI] wt: 1425.0
+  | | | | (PWV)
+  | | | | | [PWV PWV_QMWNezS] wt: 292.0
+  | | | (RLR)
+  | | | | [RLR RLR_7FlwexV] wt: 1137.0
+  | | (RYC)
+  | | | | [RYC RYC_1TB0VEpC5] wt: 1584.0
+  | | | (SJY)
+  | | | | [SJY SJY_4TB40iJwE] wt: 410.0
+  | (UTT)
+  | | | | | [UTT UTT_EfFUqTB] wt: 1321.0
+  | | | | (VPB)
+  | | | | | [VPB VPB_mCwbzOp] wt: 1467.0
+  | | | (XES)
+  | | | | [XES XES_6ox8Fi] wt: 1656.0
+  | | (XVK)
+  | | | | | [XVK XVK_AVSgG2] wt: 1061.0
+  | | | | (YRY)
+  | | | | | [YRY YRY_iCw4iX] wt: 653.0
+  | | | (ZHV)
+  | | | | [ZHV ZHV_k2dfzl8] wt: 1901.0
+Full-Preorder list at time = 40:
+  <15>
+  <11>
+  <3>
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  (YRY)
+  <5>
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  (UTT)
+  <7>
+  [MOE MOE_htSrsdy] wt: 1936.0
+  (MOE)
+  <11>
+  [HER HER_m4lApc9v7] wt: 1745.0
+  (HER)
+  [DJW DJW_LMhYY] wt: 1249.0
+  [HER HER_m4lApc9v7] wt: 1745.0
+  <9>
+  [MOE MOE_htSrsdy] wt: 1936.0
+  (RYC)
+  [MOE MOE_htSrsdy] wt: 1936.0
+  [RYC RYC_1TB0VEpC5] wt: 1584.0
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  [YRY YRY_iCw4iX] wt: 653.0
+  (RYC)
+  (MOE)
+  (HER)
+  <13>
+  [DJW DJW_LMhYY] wt: 1249.0
+  (DJW)
+  [AQU AQU_wNSMfc] wt: 783.0
+  <15>
+  [DJW DJW_LMhYY] wt: 1249.0
+  (DMH)
+  [DJW DJW_LMhYY] wt: 1249.0
+  [DMH DMH_W4q8rCLHg] wt: 1663.0
+  [HER HER_m4lApc9v7] wt: 1745.0
+  [MOE MOE_htSrsdy] wt: 1936.0
+  (UTT)
+  [RYC RYC_1TB0VEpC5] wt: 1584.0
+  (YRY)
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  [YRY YRY_iCw4iX] wt: 653.0
+  (MOE)
+  <29>
+  (DMH)
+  (DJW)
+  [AQU AQU_wNSMfc] wt: 783.0
+  [DJW DJW_LMhYY] wt: 1249.0
+  (HER)
+  <17>
+  [DMH DMH_W4q8rCLHg] wt: 1663.0
+  (EJV)
+  [DMH DMH_W4q8rCLHg] wt: 1663.0
+  <19>
+  [EJV EJV_6giaM-52] wt: 866.0
+  (ENV)
+  [EJV EJV_6giaM-52] wt: 866.0
+  <29>
+  [ENV ENV_7s3rP] wt: 653.0
+  (ERX)
+  [ENV ENV_7s3rP] wt: 653.0
+  [ERX ERX_-Rp25l] wt: 1517.0
+  [HER HER_m4lApc9v7] wt: 1745.0
+  (ENV)
+  (DMH)
+  (DJW)
+  [AQU AQU_wNSMfc] wt: 783.0
+  [DJW DJW_LMhYY] wt: 1249.0
+  (EJV)
+  [DMH DMH_W4q8rCLHg] wt: 1663.0
+  <33>
+  [EJV EJV_6giaM-52] wt: 866.0
+  (ELW)
+  [EJV EJV_6giaM-52] wt: 866.0
+  [ELW ELW_ocB5LrZ] wt: 930.0
+  (HER)
+  (ERX)
+  [ENV ENV_7s3rP] wt: 653.0
+  [ERX ERX_-Rp25l] wt: 1517.0
+  [HER HER_m4lApc9v7] wt: 1745.0
+  (UTT)
+  (RYC)
+  <21>
+  [MOE MOE_htSrsdy] wt: 1936.0
+  (RLR)
+  <37>
+  [MOE MOE_htSrsdy] wt: 1936.0
+  (PWV)
+  <39>
+  [MOE MOE_htSrsdy] wt: 1936.0
+  (OEU)
+  [MOE MOE_htSrsdy] wt: 1936.0
+  [OEU OEU_RxkiI] wt: 1425.0
+  [PWV PWV_QMWNezS] wt: 292.0
+  [RLR RLR_7FlwexV] wt: 1137.0
+  <31>
+  [RYC RYC_1TB0VEpC5] wt: 1584.0
+  (SJY)
+  [RYC RYC_1TB0VEpC5] wt: 1584.0
+  [SJY SJY_4TB40iJwE] wt: 410.0
+  <35>
+  (YRY)
+  <23>
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  (XVK)
+  <25>
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  (VPB)
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  <27>
+  [VPB VPB_mCwbzOp] wt: 1467.0
+  (XES)
+  [VPB VPB_mCwbzOp] wt: 1467.0
+  [XES XES_6ox8Fi] wt: 1656.0
+  [XVK XVK_AVSgG2] wt: 1061.0
+  <35>
+  [YRY YRY_iCw4iX] wt: 653.0
+  (ZHV)
+  [YRY YRY_iCw4iX] wt: 653.0
+  [ZHV ZHV_k2dfzl8] wt: 1901.0
+  (XVK)
+  (XES)
+  (VPB)
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  [VPB VPB_mCwbzOp] wt: 1467.0
+  [XES XES_6ox8Fi] wt: 1656.0
+  (ZHV)
+  (YRY)
+  [XVK XVK_AVSgG2] wt: 1061.0
+  [YRY YRY_iCw4iX] wt: 653.0
+  [ZHV ZHV_k2dfzl8] wt: 1901.0
+Tree structure:
+  | | | [UTT UTT_EfFUqTB] wt: 1321.0
+  | | <3>
+  | | | | | [UTT UTT_EfFUqTB] wt: 1321.0
+  | | | | <5>
+  | | | | | | | [MOE MOE_htSrsdy] wt: 1936.0
+  | | | | | | <7>
+  | | | | | | | | | [HER HER_m4lApc9v7] wt: 1745.0
+  | | | | | | | | <11>
+  | | | | | | | | | | [DJW DJW_LMhYY] wt: 1249.0
+  | | | | | | | | | (HER)
+  | | | | | | | | | | [HER HER_m4lApc9v7] wt: 1745.0
+  | | | | | | | (MOE)
+  | | | | | | | | | [MOE MOE_htSrsdy] wt: 1936.0
+  | | | | | | | | <9>
+  | | | | | | | | | | [MOE MOE_htSrsdy] wt: 1936.0
+  | | | | | | | | | (RYC)
+  | | | | | | | | | | [RYC RYC_1TB0VEpC5] wt: 1584.0
+  | | | | | (UTT)
+  | | | | | | [UTT UTT_EfFUqTB] wt: 1321.0
+  | | | (YRY)
+  | | | | [YRY YRY_iCw4iX] wt: 653.0
+  | <11>
+  | | | | | | [DJW DJW_LMhYY] wt: 1249.0
+  | | | | | <13>
+  | | | | | | | [AQU AQU_wNSMfc] wt: 783.0
+  | | | | | | (DJW)
+  | | | | | | | | [DJW DJW_LMhYY] wt: 1249.0
+  | | | | | | | <15>
+  | | | | | | | | | [DJW DJW_LMhYY] wt: 1249.0
+  | | | | | | | | (DMH)
+  | | | | | | | | | [DMH DMH_W4q8rCLHg] wt: 1663.0
+  | | | | (HER)
+  | | | | | [HER HER_m4lApc9v7] wt: 1745.0
+  | | | (MOE)
+  | | | | [MOE MOE_htSrsdy] wt: 1936.0
+  | | (RYC)
+  | | | | [RYC RYC_1TB0VEpC5] wt: 1584.0
+  | | | (UTT)
+  | | | | | [UTT UTT_EfFUqTB] wt: 1321.0
+  | | | | (YRY)
+  | | | | | [YRY YRY_iCw4iX] wt: 653.0
+  <15>
+  | | | | | [AQU AQU_wNSMfc] wt: 783.0
+  | | | | (DJW)
+  | | | | | [DJW DJW_LMhYY] wt: 1249.0
+  | | | (DMH)
+  | | | | | | [DMH DMH_W4q8rCLHg] wt: 1663.0
+  | | | | | <17>
+  | | | | | | | [DMH DMH_W4q8rCLHg] wt: 1663.0
+  | | | | | | (EJV)
+  | | | | | | | | [EJV EJV_6giaM-52] wt: 866.0
+  | | | | | | | <19>
+  | | | | | | | | | [EJV EJV_6giaM-52] wt: 866.0
+  | | | | | | | | (ENV)
+  | | | | | | | | | | [ENV ENV_7s3rP] wt: 653.0
+  | | | | | | | | | <29>
+  | | | | | | | | | | | [ENV ENV_7s3rP] wt: 653.0
+  | | | | | | | | | | (ERX)
+  | | | | | | | | | | | [ERX ERX_-Rp25l] wt: 1517.0
+  | | | | (HER)
+  | | | | | [HER HER_m4lApc9v7] wt: 1745.0
+  | | <29>
+  | | | | | | [AQU AQU_wNSMfc] wt: 783.0
+  | | | | | (DJW)
+  | | | | | | [DJW DJW_LMhYY] wt: 1249.0
+  | | | | (DMH)
+  | | | | | | [DMH DMH_W4q8rCLHg] wt: 1663.0
+  | | | | | (EJV)
+  | | | | | | | [EJV EJV_6giaM-52] wt: 866.0
+  | | | | | | <33>
+  | | | | | | | | [EJV EJV_6giaM-52] wt: 866.0
+  | | | | | | | (ELW)
+  | | | | | | | | [ELW ELW_ocB5LrZ] wt: 930.0
+  | | | (ENV)
+  | | | | | | [ENV ENV_7s3rP] wt: 653.0
+  | | | | | (ERX)
+  | | | | | | [ERX ERX_-Rp25l] wt: 1517.0
+  | | | | (HER)
+  | | | | | [HER HER_m4lApc9v7] wt: 1745.0
+  | (MOE)
+  | | | | | [MOE MOE_htSrsdy] wt: 1936.0
+  | | | | <21>
+  | | | | | | | [MOE MOE_htSrsdy] wt: 1936.0
+  | | | | | | <37>
+  | | | | | | | | | [MOE MOE_htSrsdy] wt: 1936.0
+  | | | | | | | | <39>
+  | | | | | | | | | | [MOE MOE_htSrsdy] wt: 1936.0
+  | | | | | | | | | (OEU)
+  | | | | | | | | | | [OEU OEU_RxkiI] wt: 1425.0
+  | | | | | | | (PWV)
+  | | | | | | | | [PWV PWV_QMWNezS] wt: 292.0
+  | | | | | (RLR)
+  | | | | | | [RLR RLR_7FlwexV] wt: 1137.0
+  | | | (RYC)
+  | | | | | [RYC RYC_1TB0VEpC5] wt: 1584.0
+  | | | | <31>
+  | | | | | | [RYC RYC_1TB0VEpC5] wt: 1584.0
+  | | | | | (SJY)
+  | | | | | | [SJY SJY_4TB40iJwE] wt: 410.0
+  | | (UTT)
+  | | | | | | [UTT UTT_EfFUqTB] wt: 1321.0
+  | | | | | <23>
+  | | | | | | | | [UTT UTT_EfFUqTB] wt: 1321.0
+  | | | | | | | <25>
+  | | | | | | | | | [UTT UTT_EfFUqTB] wt: 1321.0
+  | | | | | | | | (VPB)
+  | | | | | | | | | | [VPB VPB_mCwbzOp] wt: 1467.0
+  | | | | | | | | | <27>
+  | | | | | | | | | | | [VPB VPB_mCwbzOp] wt: 1467.0
+  | | | | | | | | | | (XES)
+  | | | | | | | | | | | [XES XES_6ox8Fi] wt: 1656.0
+  | | | | | | (XVK)
+  | | | | | | | [XVK XVK_AVSgG2] wt: 1061.0
+  | | | | (YRY)
+  | | | | | | [YRY YRY_iCw4iX] wt: 653.0
+  | | | | | <35>
+  | | | | | | | [YRY YRY_iCw4iX] wt: 653.0
+  | | | | | | (ZHV)
+  | | | | | | | [ZHV ZHV_k2dfzl8] wt: 1901.0
+  | | | <35>
+  | | | | | | | [UTT UTT_EfFUqTB] wt: 1321.0
+  | | | | | | (VPB)
+  | | | | | | | [VPB VPB_mCwbzOp] wt: 1467.0
+  | | | | | (XES)
+  | | | | | | [XES XES_6ox8Fi] wt: 1656.0
+  | | | | (XVK)
+  | | | | | | | [XVK XVK_AVSgG2] wt: 1061.0
+  | | | | | | (YRY)
+  | | | | | | | [YRY YRY_iCw4iX] wt: 653.0
+  | | | | | (ZHV)
+  | | | | | | [ZHV ZHV_k2dfzl8] wt: 1901.0
+insert(YWX) at time = 41 : successful {YWX_Yw0XT3B, YWX_kmknDaGO, 0thkr, (65.27463,-25.200447)}
+insert(UDW) at time = 43 : successful {UDW_VbSq5lqTzU4a1DNBBDT, UDW_WUnPTGeGA, -LhPRIa3, (74.13278,28.425278)}
+Preorder list at time = 40:
+  (MOE)
+  (ENV)
+  (DMH)
+  (DJW)
+  [AQU AQU_wNSMfc] wt: 783.0
+  [DJW DJW_LMhYY] wt: 1249.0
+  (EJV)
+  [DMH DMH_W4q8rCLHg] wt: 1663.0
+  (ELW)
+  [EJV EJV_6giaM-52] wt: 866.0
+  [ELW ELW_ocB5LrZ] wt: 930.0
+  (HER)
+  (ERX)
+  [ENV ENV_7s3rP] wt: 653.0
+  [ERX ERX_-Rp25l] wt: 1517.0
+  [HER HER_m4lApc9v7] wt: 1745.0
+  (UTT)
+  (RYC)
+  (RLR)
+  (PWV)
+  (OEU)
+  [MOE MOE_htSrsdy] wt: 1936.0
+  [OEU OEU_RxkiI] wt: 1425.0
+  [PWV PWV_QMWNezS] wt: 292.0
+  [RLR RLR_7FlwexV] wt: 1137.0
+  (SJY)
+  [RYC RYC_1TB0VEpC5] wt: 1584.0
+  [SJY SJY_4TB40iJwE] wt: 410.0
+  (XVK)
+  (XES)
+  (VPB)
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  [VPB VPB_mCwbzOp] wt: 1467.0
+  [XES XES_6ox8Fi] wt: 1656.0
+  (ZHV)
+  (YRY)
+  [XVK XVK_AVSgG2] wt: 1061.0
+  [YRY YRY_iCw4iX] wt: 653.0
+  [ZHV ZHV_k2dfzl8] wt: 1901.0
+Tree structure:
+  | | | | [AQU AQU_wNSMfc] wt: 783.0
+  | | | (DJW)
+  | | | | [DJW DJW_LMhYY] wt: 1249.0
+  | | (DMH)
+  | | | | [DMH DMH_W4q8rCLHg] wt: 1663.0
+  | | | (EJV)
+  | | | | | [EJV EJV_6giaM-52] wt: 866.0
+  | | | | (ELW)
+  | | | | | [ELW ELW_ocB5LrZ] wt: 930.0
+  | (ENV)
+  | | | | [ENV ENV_7s3rP] wt: 653.0
+  | | | (ERX)
+  | | | | [ERX ERX_-Rp25l] wt: 1517.0
+  | | (HER)
+  | | | [HER HER_m4lApc9v7] wt: 1745.0
+  (MOE)
+  | | | | | | [MOE MOE_htSrsdy] wt: 1936.0
+  | | | | | (OEU)
+  | | | | | | [OEU OEU_RxkiI] wt: 1425.0
+  | | | | (PWV)
+  | | | | | [PWV PWV_QMWNezS] wt: 292.0
+  | | | (RLR)
+  | | | | [RLR RLR_7FlwexV] wt: 1137.0
+  | | (RYC)
+  | | | | [RYC RYC_1TB0VEpC5] wt: 1584.0
+  | | | (SJY)
+  | | | | [SJY SJY_4TB40iJwE] wt: 410.0
+  | (UTT)
+  | | | | | [UTT UTT_EfFUqTB] wt: 1321.0
+  | | | | (VPB)
+  | | | | | [VPB VPB_mCwbzOp] wt: 1467.0
+  | | | (XES)
+  | | | | [XES XES_6ox8Fi] wt: 1656.0
+  | | (XVK)
+  | | | | | [XVK XVK_AVSgG2] wt: 1061.0
+  | | | | (YRY)
+  | | | | | [YRY YRY_iCw4iX] wt: 653.0
+  | | | (ZHV)
+  | | | | [ZHV ZHV_k2dfzl8] wt: 1901.0
+insert(UJC) at time = 45 : successful {UJC_4JgDtIi5PiI, UJC_raJyRBZ, 7q-4G2, (13.167801,63.61183)}
+Preorder list at time = 32:
+  (MOE)
+  (ENV)
+  (DMH)
+  (DJW)
+  [AQU AQU_wNSMfc] wt: 783.0
+  [DJW DJW_LMhYY] wt: 1249.0
+  (EJV)
+  [DMH DMH_W4q8rCLHg] wt: 1663.0
+  [EJV EJV_6giaM-52] wt: 866.0
+  (HER)
+  (ERX)
+  [ENV ENV_7s3rP] wt: 653.0
+  [ERX ERX_-Rp25l] wt: 1517.0
+  [HER HER_m4lApc9v7] wt: 1745.0
+  (UTT)
+  (RYC)
+  (RLR)
+  [MOE MOE_htSrsdy] wt: 1936.0
+  [RLR RLR_7FlwexV] wt: 1137.0
+  (SJY)
+  [RYC RYC_1TB0VEpC5] wt: 1584.0
+  [SJY SJY_4TB40iJwE] wt: 410.0
+  (YRY)
+  (XVK)
+  (VPB)
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  (XES)
+  [VPB VPB_mCwbzOp] wt: 1467.0
+  [XES XES_6ox8Fi] wt: 1656.0
+  [XVK XVK_AVSgG2] wt: 1061.0
+  [YRY YRY_iCw4iX] wt: 653.0
+Tree structure:
+  | | | | [AQU AQU_wNSMfc] wt: 783.0
+  | | | (DJW)
+  | | | | [DJW DJW_LMhYY] wt: 1249.0
+  | | (DMH)
+  | | | | [DMH DMH_W4q8rCLHg] wt: 1663.0
+  | | | (EJV)
+  | | | | [EJV EJV_6giaM-52] wt: 866.0
+  | (ENV)
+  | | | | [ENV ENV_7s3rP] wt: 653.0
+  | | | (ERX)
+  | | | | [ERX ERX_-Rp25l] wt: 1517.0
+  | | (HER)
+  | | | [HER HER_m4lApc9v7] wt: 1745.0
+  (MOE)
+  | | | | [MOE MOE_htSrsdy] wt: 1936.0
+  | | | (RLR)
+  | | | | [RLR RLR_7FlwexV] wt: 1137.0
+  | | (RYC)
+  | | | | [RYC RYC_1TB0VEpC5] wt: 1584.0
+  | | | (SJY)
+  | | | | [SJY SJY_4TB40iJwE] wt: 410.0
+  | (UTT)
+  | | | | | [UTT UTT_EfFUqTB] wt: 1321.0
+  | | | | (VPB)
+  | | | | | | [VPB VPB_mCwbzOp] wt: 1467.0
+  | | | | | (XES)
+  | | | | | | [XES XES_6ox8Fi] wt: 1656.0
+  | | | (XVK)
+  | | | | [XVK XVK_AVSgG2] wt: 1061.0
+  | | (YRY)
+  | | | [YRY YRY_iCw4iX] wt: 653.0
+find(AQU) at time = 44: found [AQU_wNSMfc]
+find(UJC) at time = 44: not found
+find(MOE) at time = 44: found [MOE_htSrsdy]
+insert(ZJL) at time = 47 : successful {ZJL_cV9JSNNaJNFoyGeCJW, ZJL_GGIHH, O0EnbqYIF, (126.33081,80.84331)}
+Preorder list at time = 40:
+  (MOE)
+  (ENV)
+  (DMH)
+  (DJW)
+  [AQU AQU_wNSMfc] wt: 783.0
+  [DJW DJW_LMhYY] wt: 1249.0
+  (EJV)
+  [DMH DMH_W4q8rCLHg] wt: 1663.0
+  (ELW)
+  [EJV EJV_6giaM-52] wt: 866.0
+  [ELW ELW_ocB5LrZ] wt: 930.0
+  (HER)
+  (ERX)
+  [ENV ENV_7s3rP] wt: 653.0
+  [ERX ERX_-Rp25l] wt: 1517.0
+  [HER HER_m4lApc9v7] wt: 1745.0
+  (UTT)
+  (RYC)
+  (RLR)
+  (PWV)
+  (OEU)
+  [MOE MOE_htSrsdy] wt: 1936.0
+  [OEU OEU_RxkiI] wt: 1425.0
+  [PWV PWV_QMWNezS] wt: 292.0
+  [RLR RLR_7FlwexV] wt: 1137.0
+  (SJY)
+  [RYC RYC_1TB0VEpC5] wt: 1584.0
+  [SJY SJY_4TB40iJwE] wt: 410.0
+  (XVK)
+  (XES)
+  (VPB)
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  [VPB VPB_mCwbzOp] wt: 1467.0
+  [XES XES_6ox8Fi] wt: 1656.0
+  (ZHV)
+  (YRY)
+  [XVK XVK_AVSgG2] wt: 1061.0
+  [YRY YRY_iCw4iX] wt: 653.0
+  [ZHV ZHV_k2dfzl8] wt: 1901.0
+Tree structure:
+  | | | | [AQU AQU_wNSMfc] wt: 783.0
+  | | | (DJW)
+  | | | | [DJW DJW_LMhYY] wt: 1249.0
+  | | (DMH)
+  | | | | [DMH DMH_W4q8rCLHg] wt: 1663.0
+  | | | (EJV)
+  | | | | | [EJV EJV_6giaM-52] wt: 866.0
+  | | | | (ELW)
+  | | | | | [ELW ELW_ocB5LrZ] wt: 930.0
+  | (ENV)
+  | | | | [ENV ENV_7s3rP] wt: 653.0
+  | | | (ERX)
+  | | | | [ERX ERX_-Rp25l] wt: 1517.0
+  | | (HER)
+  | | | [HER HER_m4lApc9v7] wt: 1745.0
+  (MOE)
+  | | | | | | [MOE MOE_htSrsdy] wt: 1936.0
+  | | | | | (OEU)
+  | | | | | | [OEU OEU_RxkiI] wt: 1425.0
+  | | | | (PWV)
+  | | | | | [PWV PWV_QMWNezS] wt: 292.0
+  | | | (RLR)
+  | | | | [RLR RLR_7FlwexV] wt: 1137.0
+  | | (RYC)
+  | | | | [RYC RYC_1TB0VEpC5] wt: 1584.0
+  | | | (SJY)
+  | | | | [SJY SJY_4TB40iJwE] wt: 410.0
+  | (UTT)
+  | | | | | [UTT UTT_EfFUqTB] wt: 1321.0
+  | | | | (VPB)
+  | | | | | [VPB VPB_mCwbzOp] wt: 1467.0
+  | | | (XES)
+  | | | | [XES XES_6ox8Fi] wt: 1656.0
+  | | (XVK)
+  | | | | | [XVK XVK_AVSgG2] wt: 1061.0
+  | | | | (YRY)
+  | | | | | [YRY YRY_iCw4iX] wt: 653.0
+  | | | (ZHV)
+  | | | | [ZHV ZHV_k2dfzl8] wt: 1901.0
+insert(FMG) at time = 49 : successful {FMG_SnHOGNtz5I, FMG_9mHAh6, dH7bJpIhq, (14.174469,51.245056)}
+Preorder list at time = 46:
+  (MOE)
+  (ENV)
+  (DMH)
+  (DJW)
+  [AQU AQU_wNSMfc] wt: 783.0
+  [DJW DJW_LMhYY] wt: 1249.0
+  (EJV)
+  [DMH DMH_W4q8rCLHg] wt: 1663.0
+  (ELW)
+  [EJV EJV_6giaM-52] wt: 866.0
+  [ELW ELW_ocB5LrZ] wt: 930.0
+  (HER)
+  (ERX)
+  [ENV ENV_7s3rP] wt: 653.0
+  [ERX ERX_-Rp25l] wt: 1517.0
+  [HER HER_m4lApc9v7] wt: 1745.0
+  (UTT)
+  (RYC)
+  (RLR)
+  (PWV)
+  (OEU)
+  [MOE MOE_htSrsdy] wt: 1936.0
+  [OEU OEU_RxkiI] wt: 1425.0
+  [PWV PWV_QMWNezS] wt: 292.0
+  [RLR RLR_7FlwexV] wt: 1137.0
+  (SJY)
+  [RYC RYC_1TB0VEpC5] wt: 1584.0
+  (UDW)
+  [SJY SJY_4TB40iJwE] wt: 410.0
+  (UJC)
+  [UDW UDW_WUnPTGeGA] wt: 285.0
+  [UJC UJC_raJyRBZ] wt: 12.0
+  (XVK)
+  (XES)
+  (VPB)
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  [VPB VPB_mCwbzOp] wt: 1467.0
+  [XES XES_6ox8Fi] wt: 1656.0
+  (ZHV)
+  (YRY)
+  [XVK XVK_AVSgG2] wt: 1061.0
+  (YWX)
+  [YRY YRY_iCw4iX] wt: 653.0
+  [YWX YWX_kmknDaGO] wt: 606.0
+  [ZHV ZHV_k2dfzl8] wt: 1901.0
+Tree structure:
+  | | | | [AQU AQU_wNSMfc] wt: 783.0
+  | | | (DJW)
+  | | | | [DJW DJW_LMhYY] wt: 1249.0
+  | | (DMH)
+  | | | | [DMH DMH_W4q8rCLHg] wt: 1663.0
+  | | | (EJV)
+  | | | | | [EJV EJV_6giaM-52] wt: 866.0
+  | | | | (ELW)
+  | | | | | [ELW ELW_ocB5LrZ] wt: 930.0
+  | (ENV)
+  | | | | [ENV ENV_7s3rP] wt: 653.0
+  | | | (ERX)
+  | | | | [ERX ERX_-Rp25l] wt: 1517.0
+  | | (HER)
+  | | | [HER HER_m4lApc9v7] wt: 1745.0
+  (MOE)
+  | | | | | | [MOE MOE_htSrsdy] wt: 1936.0
+  | | | | | (OEU)
+  | | | | | | [OEU OEU_RxkiI] wt: 1425.0
+  | | | | (PWV)
+  | | | | | [PWV PWV_QMWNezS] wt: 292.0
+  | | | (RLR)
+  | | | | [RLR RLR_7FlwexV] wt: 1137.0
+  | | (RYC)
+  | | | | [RYC RYC_1TB0VEpC5] wt: 1584.0
+  | | | (SJY)
+  | | | | | [SJY SJY_4TB40iJwE] wt: 410.0
+  | | | | (UDW)
+  | | | | | | [UDW UDW_WUnPTGeGA] wt: 285.0
+  | | | | | (UJC)
+  | | | | | | [UJC UJC_raJyRBZ] wt: 12.0
+  | (UTT)
+  | | | | | [UTT UTT_EfFUqTB] wt: 1321.0
+  | | | | (VPB)
+  | | | | | [VPB VPB_mCwbzOp] wt: 1467.0
+  | | | (XES)
+  | | | | [XES XES_6ox8Fi] wt: 1656.0
+  | | (XVK)
+  | | | | | [XVK XVK_AVSgG2] wt: 1061.0
+  | | | | (YRY)
+  | | | | | | [YRY YRY_iCw4iX] wt: 653.0
+  | | | | | (YWX)
+  | | | | | | [YWX YWX_kmknDaGO] wt: 606.0
+  | | | (ZHV)
+  | | | | [ZHV ZHV_k2dfzl8] wt: 1901.0
+find(MOE) at time = 10: found [MOE_htSrsdy]
+find(PWV) at time = 10: not found
+find(DMH) at time = 10: not found
+Preorder list at time = 50:
+  (MOE)
+  (ENV)
+  (DMH)
+  (DJW)
+  [AQU AQU_wNSMfc] wt: 783.0
+  [DJW DJW_LMhYY] wt: 1249.0
+  (EJV)
+  [DMH DMH_W4q8rCLHg] wt: 1663.0
+  (ELW)
+  [EJV EJV_6giaM-52] wt: 866.0
+  [ELW ELW_ocB5LrZ] wt: 930.0
+  (HER)
+  (ERX)
+  [ENV ENV_7s3rP] wt: 653.0
+  (FMG)
+  [ERX ERX_-Rp25l] wt: 1517.0
+  [FMG FMG_9mHAh6] wt: 736.0
+  [HER HER_m4lApc9v7] wt: 1745.0
+  (UTT)
+  (RYC)
+  (RLR)
+  (PWV)
+  (OEU)
+  [MOE MOE_htSrsdy] wt: 1936.0
+  [OEU OEU_RxkiI] wt: 1425.0
+  [PWV PWV_QMWNezS] wt: 292.0
+  [RLR RLR_7FlwexV] wt: 1137.0
+  (SJY)
+  [RYC RYC_1TB0VEpC5] wt: 1584.0
+  (UDW)
+  [SJY SJY_4TB40iJwE] wt: 410.0
+  (UJC)
+  [UDW UDW_WUnPTGeGA] wt: 285.0
+  [UJC UJC_raJyRBZ] wt: 12.0
+  (XVK)
+  (XES)
+  (VPB)
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  [VPB VPB_mCwbzOp] wt: 1467.0
+  [XES XES_6ox8Fi] wt: 1656.0
+  (ZHV)
+  (YRY)
+  [XVK XVK_AVSgG2] wt: 1061.0
+  (YWX)
+  [YRY YRY_iCw4iX] wt: 653.0
+  [YWX YWX_kmknDaGO] wt: 606.0
+  (ZJL)
+  [ZHV ZHV_k2dfzl8] wt: 1901.0
+  [ZJL ZJL_GGIHH] wt: 262.0
+Tree structure:
+  | | | | [AQU AQU_wNSMfc] wt: 783.0
+  | | | (DJW)
+  | | | | [DJW DJW_LMhYY] wt: 1249.0
+  | | (DMH)
+  | | | | [DMH DMH_W4q8rCLHg] wt: 1663.0
+  | | | (EJV)
+  | | | | | [EJV EJV_6giaM-52] wt: 866.0
+  | | | | (ELW)
+  | | | | | [ELW ELW_ocB5LrZ] wt: 930.0
+  | (ENV)
+  | | | | [ENV ENV_7s3rP] wt: 653.0
+  | | | (ERX)
+  | | | | | [ERX ERX_-Rp25l] wt: 1517.0
+  | | | | (FMG)
+  | | | | | [FMG FMG_9mHAh6] wt: 736.0
+  | | (HER)
+  | | | [HER HER_m4lApc9v7] wt: 1745.0
+  (MOE)
+  | | | | | | [MOE MOE_htSrsdy] wt: 1936.0
+  | | | | | (OEU)
+  | | | | | | [OEU OEU_RxkiI] wt: 1425.0
+  | | | | (PWV)
+  | | | | | [PWV PWV_QMWNezS] wt: 292.0
+  | | | (RLR)
+  | | | | [RLR RLR_7FlwexV] wt: 1137.0
+  | | (RYC)
+  | | | | [RYC RYC_1TB0VEpC5] wt: 1584.0
+  | | | (SJY)
+  | | | | | [SJY SJY_4TB40iJwE] wt: 410.0
+  | | | | (UDW)
+  | | | | | | [UDW UDW_WUnPTGeGA] wt: 285.0
+  | | | | | (UJC)
+  | | | | | | [UJC UJC_raJyRBZ] wt: 12.0
+  | (UTT)
+  | | | | | [UTT UTT_EfFUqTB] wt: 1321.0
+  | | | | (VPB)
+  | | | | | [VPB VPB_mCwbzOp] wt: 1467.0
+  | | | (XES)
+  | | | | [XES XES_6ox8Fi] wt: 1656.0
+  | | (XVK)
+  | | | | | [XVK XVK_AVSgG2] wt: 1061.0
+  | | | | (YRY)
+  | | | | | | [YRY YRY_iCw4iX] wt: 653.0
+  | | | | | (YWX)
+  | | | | | | [YWX YWX_kmknDaGO] wt: 606.0
+  | | | (ZHV)
+  | | | | | [ZHV ZHV_k2dfzl8] wt: 1901.0
+  | | | | (ZJL)
+  | | | | | [ZJL ZJL_GGIHH] wt: 262.0
+Full-Preorder list at time = 50:
+  <15>
+  <11>
+  <3>
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  (YRY)
+  <5>
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  (UTT)
+  <7>
+  [MOE MOE_htSrsdy] wt: 1936.0
+  (MOE)
+  <11>
+  [HER HER_m4lApc9v7] wt: 1745.0
+  (HER)
+  [DJW DJW_LMhYY] wt: 1249.0
+  [HER HER_m4lApc9v7] wt: 1745.0
+  <9>
+  [MOE MOE_htSrsdy] wt: 1936.0
+  (RYC)
+  [MOE MOE_htSrsdy] wt: 1936.0
+  [RYC RYC_1TB0VEpC5] wt: 1584.0
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  [YRY YRY_iCw4iX] wt: 653.0
+  (RYC)
+  (MOE)
+  (HER)
+  <13>
+  [DJW DJW_LMhYY] wt: 1249.0
+  (DJW)
+  [AQU AQU_wNSMfc] wt: 783.0
+  <15>
+  [DJW DJW_LMhYY] wt: 1249.0
+  (DMH)
+  [DJW DJW_LMhYY] wt: 1249.0
+  [DMH DMH_W4q8rCLHg] wt: 1663.0
+  [HER HER_m4lApc9v7] wt: 1745.0
+  [MOE MOE_htSrsdy] wt: 1936.0
+  (UTT)
+  [RYC RYC_1TB0VEpC5] wt: 1584.0
+  (YRY)
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  [YRY YRY_iCw4iX] wt: 653.0
+  (MOE)
+  <29>
+  (DMH)
+  (DJW)
+  [AQU AQU_wNSMfc] wt: 783.0
+  [DJW DJW_LMhYY] wt: 1249.0
+  (HER)
+  <17>
+  [DMH DMH_W4q8rCLHg] wt: 1663.0
+  (EJV)
+  [DMH DMH_W4q8rCLHg] wt: 1663.0
+  <19>
+  [EJV EJV_6giaM-52] wt: 866.0
+  (ENV)
+  [EJV EJV_6giaM-52] wt: 866.0
+  <29>
+  [ENV ENV_7s3rP] wt: 653.0
+  (ERX)
+  [ENV ENV_7s3rP] wt: 653.0
+  [ERX ERX_-Rp25l] wt: 1517.0
+  [HER HER_m4lApc9v7] wt: 1745.0
+  (ENV)
+  (DMH)
+  (DJW)
+  [AQU AQU_wNSMfc] wt: 783.0
+  [DJW DJW_LMhYY] wt: 1249.0
+  (EJV)
+  [DMH DMH_W4q8rCLHg] wt: 1663.0
+  <33>
+  [EJV EJV_6giaM-52] wt: 866.0
+  (ELW)
+  [EJV EJV_6giaM-52] wt: 866.0
+  [ELW ELW_ocB5LrZ] wt: 930.0
+  (HER)
+  (ERX)
+  [ENV ENV_7s3rP] wt: 653.0
+  <49>
+  [ERX ERX_-Rp25l] wt: 1517.0
+  (FMG)
+  [ERX ERX_-Rp25l] wt: 1517.0
+  [FMG FMG_9mHAh6] wt: 736.0
+  [HER HER_m4lApc9v7] wt: 1745.0
+  (UTT)
+  (RYC)
+  <21>
+  [MOE MOE_htSrsdy] wt: 1936.0
+  (RLR)
+  <37>
+  [MOE MOE_htSrsdy] wt: 1936.0
+  (PWV)
+  <39>
+  [MOE MOE_htSrsdy] wt: 1936.0
+  (OEU)
+  [MOE MOE_htSrsdy] wt: 1936.0
+  [OEU OEU_RxkiI] wt: 1425.0
+  [PWV PWV_QMWNezS] wt: 292.0
+  [RLR RLR_7FlwexV] wt: 1137.0
+  <31>
+  [RYC RYC_1TB0VEpC5] wt: 1584.0
+  (SJY)
+  [RYC RYC_1TB0VEpC5] wt: 1584.0
+  <43>
+  [SJY SJY_4TB40iJwE] wt: 410.0
+  (UDW)
+  [SJY SJY_4TB40iJwE] wt: 410.0
+  <45>
+  [UDW UDW_WUnPTGeGA] wt: 285.0
+  (UJC)
+  [UDW UDW_WUnPTGeGA] wt: 285.0
+  [UJC UJC_raJyRBZ] wt: 12.0
+  <35>
+  (YRY)
+  <23>
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  (XVK)
+  <25>
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  (VPB)
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  <27>
+  [VPB VPB_mCwbzOp] wt: 1467.0
+  (XES)
+  [VPB VPB_mCwbzOp] wt: 1467.0
+  [XES XES_6ox8Fi] wt: 1656.0
+  [XVK XVK_AVSgG2] wt: 1061.0
+  <35>
+  [YRY YRY_iCw4iX] wt: 653.0
+  (ZHV)
+  [YRY YRY_iCw4iX] wt: 653.0
+  [ZHV ZHV_k2dfzl8] wt: 1901.0
+  (XVK)
+  (XES)
+  (VPB)
+  [UTT UTT_EfFUqTB] wt: 1321.0
+  [VPB VPB_mCwbzOp] wt: 1467.0
+  [XES XES_6ox8Fi] wt: 1656.0
+  (ZHV)
+  (YRY)
+  [XVK XVK_AVSgG2] wt: 1061.0
+  <41>
+  [YRY YRY_iCw4iX] wt: 653.0
+  (YWX)
+  [YRY YRY_iCw4iX] wt: 653.0
+  [YWX YWX_kmknDaGO] wt: 606.0
+  <47>
+  [ZHV ZHV_k2dfzl8] wt: 1901.0
+  (ZJL)
+  [ZHV ZHV_k2dfzl8] wt: 1901.0
+  [ZJL ZJL_GGIHH] wt: 262.0
+Tree structure:
+  | | | [UTT UTT_EfFUqTB] wt: 1321.0
+  | | <3>
+  | | | | | [UTT UTT_EfFUqTB] wt: 1321.0
+  | | | | <5>
+  | | | | | | | [MOE MOE_htSrsdy] wt: 1936.0
+  | | | | | | <7>
+  | | | | | | | | | [HER HER_m4lApc9v7] wt: 1745.0
+  | | | | | | | | <11>
+  | | | | | | | | | | [DJW DJW_LMhYY] wt: 1249.0
+  | | | | | | | | | (HER)
+  | | | | | | | | | | [HER HER_m4lApc9v7] wt: 1745.0
+  | | | | | | | (MOE)
+  | | | | | | | | | [MOE MOE_htSrsdy] wt: 1936.0
+  | | | | | | | | <9>
+  | | | | | | | | | | [MOE MOE_htSrsdy] wt: 1936.0
+  | | | | | | | | | (RYC)
+  | | | | | | | | | | [RYC RYC_1TB0VEpC5] wt: 1584.0
+  | | | | | (UTT)
+  | | | | | | [UTT UTT_EfFUqTB] wt: 1321.0
+  | | | (YRY)
+  | | | | [YRY YRY_iCw4iX] wt: 653.0
+  | <11>
+  | | | | | | [DJW DJW_LMhYY] wt: 1249.0
+  | | | | | <13>
+  | | | | | | | [AQU AQU_wNSMfc] wt: 783.0
+  | | | | | | (DJW)
+  | | | | | | | | [DJW DJW_LMhYY] wt: 1249.0
+  | | | | | | | <15>
+  | | | | | | | | | [DJW DJW_LMhYY] wt: 1249.0
+  | | | | | | | | (DMH)
+  | | | | | | | | | [DMH DMH_W4q8rCLHg] wt: 1663.0
+  | | | | (HER)
+  | | | | | [HER HER_m4lApc9v7] wt: 1745.0
+  | | | (MOE)
+  | | | | [MOE MOE_htSrsdy] wt: 1936.0
+  | | (RYC)
+  | | | | [RYC RYC_1TB0VEpC5] wt: 1584.0
+  | | | (UTT)
+  | | | | | [UTT UTT_EfFUqTB] wt: 1321.0
+  | | | | (YRY)
+  | | | | | [YRY YRY_iCw4iX] wt: 653.0
+  <15>
+  | | | | | [AQU AQU_wNSMfc] wt: 783.0
+  | | | | (DJW)
+  | | | | | [DJW DJW_LMhYY] wt: 1249.0
+  | | | (DMH)
+  | | | | | | [DMH DMH_W4q8rCLHg] wt: 1663.0
+  | | | | | <17>
+  | | | | | | | [DMH DMH_W4q8rCLHg] wt: 1663.0
+  | | | | | | (EJV)
+  | | | | | | | | [EJV EJV_6giaM-52] wt: 866.0
+  | | | | | | | <19>
+  | | | | | | | | | [EJV EJV_6giaM-52] wt: 866.0
+  | | | | | | | | (ENV)
+  | | | | | | | | | | [ENV ENV_7s3rP] wt: 653.0
+  | | | | | | | | | <29>
+  | | | | | | | | | | | [ENV ENV_7s3rP] wt: 653.0
+  | | | | | | | | | | (ERX)
+  | | | | | | | | | | | [ERX ERX_-Rp25l] wt: 1517.0
+  | | | | (HER)
+  | | | | | [HER HER_m4lApc9v7] wt: 1745.0
+  | | <29>
+  | | | | | | [AQU AQU_wNSMfc] wt: 783.0
+  | | | | | (DJW)
+  | | | | | | [DJW DJW_LMhYY] wt: 1249.0
+  | | | | (DMH)
+  | | | | | | [DMH DMH_W4q8rCLHg] wt: 1663.0
+  | | | | | (EJV)
+  | | | | | | | [EJV EJV_6giaM-52] wt: 866.0
+  | | | | | | <33>
+  | | | | | | | | [EJV EJV_6giaM-52] wt: 866.0
+  | | | | | | | (ELW)
+  | | | | | | | | [ELW ELW_ocB5LrZ] wt: 930.0
+  | | | (ENV)
+  | | | | | | [ENV ENV_7s3rP] wt: 653.0
+  | | | | | (ERX)
+  | | | | | | | [ERX ERX_-Rp25l] wt: 1517.0
+  | | | | | | <49>
+  | | | | | | | | [ERX ERX_-Rp25l] wt: 1517.0
+  | | | | | | | (FMG)
+  | | | | | | | | [FMG FMG_9mHAh6] wt: 736.0
+  | | | | (HER)
+  | | | | | [HER HER_m4lApc9v7] wt: 1745.0
+  | (MOE)
+  | | | | | [MOE MOE_htSrsdy] wt: 1936.0
+  | | | | <21>
+  | | | | | | | [MOE MOE_htSrsdy] wt: 1936.0
+  | | | | | | <37>
+  | | | | | | | | | [MOE MOE_htSrsdy] wt: 1936.0
+  | | | | | | | | <39>
+  | | | | | | | | | | [MOE MOE_htSrsdy] wt: 1936.0
+  | | | | | | | | | (OEU)
+  | | | | | | | | | | [OEU OEU_RxkiI] wt: 1425.0
+  | | | | | | | (PWV)
+  | | | | | | | | [PWV PWV_QMWNezS] wt: 292.0
+  | | | | | (RLR)
+  | | | | | | [RLR RLR_7FlwexV] wt: 1137.0
+  | | | (RYC)
+  | | | | | [RYC RYC_1TB0VEpC5] wt: 1584.0
+  | | | | <31>
+  | | | | | | [RYC RYC_1TB0VEpC5] wt: 1584.0
+  | | | | | (SJY)
+  | | | | | | | [SJY SJY_4TB40iJwE] wt: 410.0
+  | | | | | | <43>
+  | | | | | | | | [SJY SJY_4TB40iJwE] wt: 410.0
+  | | | | | | | (UDW)
+  | | | | | | | | | [UDW UDW_WUnPTGeGA] wt: 285.0
+  | | | | | | | | <45>
+  | | | | | | | | | | [UDW UDW_WUnPTGeGA] wt: 285.0
+  | | | | | | | | | (UJC)
+  | | | | | | | | | | [UJC UJC_raJyRBZ] wt: 12.0
+  | | (UTT)
+  | | | | | | [UTT UTT_EfFUqTB] wt: 1321.0
+  | | | | | <23>
+  | | | | | | | | [UTT UTT_EfFUqTB] wt: 1321.0
+  | | | | | | | <25>
+  | | | | | | | | | [UTT UTT_EfFUqTB] wt: 1321.0
+  | | | | | | | | (VPB)
+  | | | | | | | | | | [VPB VPB_mCwbzOp] wt: 1467.0
+  | | | | | | | | | <27>
+  | | | | | | | | | | | [VPB VPB_mCwbzOp] wt: 1467.0
+  | | | | | | | | | | (XES)
+  | | | | | | | | | | | [XES XES_6ox8Fi] wt: 1656.0
+  | | | | | | (XVK)
+  | | | | | | | [XVK XVK_AVSgG2] wt: 1061.0
+  | | | | (YRY)
+  | | | | | | [YRY YRY_iCw4iX] wt: 653.0
+  | | | | | <35>
+  | | | | | | | [YRY YRY_iCw4iX] wt: 653.0
+  | | | | | | (ZHV)
+  | | | | | | | [ZHV ZHV_k2dfzl8] wt: 1901.0
+  | | | <35>
+  | | | | | | | [UTT UTT_EfFUqTB] wt: 1321.0
+  | | | | | | (VPB)
+  | | | | | | | [VPB VPB_mCwbzOp] wt: 1467.0
+  | | | | | (XES)
+  | | | | | | [XES XES_6ox8Fi] wt: 1656.0
+  | | | | (XVK)
+  | | | | | | | [XVK XVK_AVSgG2] wt: 1061.0
+  | | | | | | (YRY)
+  | | | | | | | | [YRY YRY_iCw4iX] wt: 653.0
+  | | | | | | | <41>
+  | | | | | | | | | [YRY YRY_iCw4iX] wt: 653.0
+  | | | | | | | | (YWX)
+  | | | | | | | | | [YWX YWX_kmknDaGO] wt: 606.0
+  | | | | | (ZHV)
+  | | | | | | | [ZHV ZHV_k2dfzl8] wt: 1901.0
+  | | | | | | <47>
+  | | | | | | | | [ZHV ZHV_k2dfzl8] wt: 1901.0
+  | | | | | | | (ZJL)
+  | | | | | | | | [ZJL ZJL_GGIHH] wt: 262.0
